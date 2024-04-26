@@ -1,0 +1,33 @@
+.main{
+    height: 420px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cityName{
+    background-color: #128dba;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 25px;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.bottom{
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+.bottom h3{
+    color: white;
+}
+
+/* Hover property */
+
+.main:hover{
+    transform: scale(1.1);
+}
