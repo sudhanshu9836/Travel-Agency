@@ -1,0 +1,44 @@
+.package{
+    height: 600px;
+    width: 320px;
+    border: 2px solid lightgray;
+}
+
+.up{
+    height: 420px;
+    width: auto;
+    background-size: cover;
+}
+.bottom h2, .bottom h5, .bottom p{
+    color: black;
+    width: 320px;
+    text-align: center;
+}
+#package-bottom{
+    margin-top: -250px;
+    margin-left: -20px;
+}
+
+/* Up elements styling */
+
+.price{
+    background-color: rgba(222,95,87,1);
+    width: 180px;
+    padding: 5px;
+    position: relative;
+    left: 140px;
+    top: 40px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    background-color: #0791be;
+    padding: 10px;
+    border: 1px solid lightslategrey;
+}
+.inner-box i{
+    margin-right: 8px;
+}

@@ -2,12 +2,13 @@
     margin: 100px;
 }
 
-/* Segment 1 styling */
+/* Segment  styling */
 
-.segment1 h3{
+.segment-description{
+    margin-top: 100px;
     color: rgba(222,95,87,1);
 }
-#segment1-heading{
+.segment-heading{
     font-size: 50px;
     font-family: "Anton", sans-serif;
     font-weight: 700;;
@@ -15,10 +16,78 @@
     color: #101f46;
     margin-bottom: 50px;
 }
+.segment2-para{
+    color: black;
+}
 
-/* Cards styling */
+.segment2 button{
+    margin: 50px 40%;
+    transform: translateY(50px);
+}
+.segment3{
+    margin-top: 100px;
+    display: flex;
+}
+/* Cards/Packages styling */
 
-.cards{
+.cards, .packages{
     display: flex;
     justify-content: space-around;
+}
+
+.package{
+    margin-top: 50px;
+}
+
+/* Icon styling */
+
+.box{
+    width: 60%;
+    height: auto;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: #0791be;
+}
+.segment3-icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 40%;
+    display: flex;
+    margin: 30px;
+}
+.icon i{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.box p{
+    margin: 20px 0px;
+    line-height: 1.4em;
+}
+.box h1{
+    margin: 10px 0px;
+    
+}
+
+.contact-box{
+    display: flex;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.contact-box i{
+    transform: translateY(30px);
+    margin: 0px 50px;
+    font-size: 40px;
+    color: black;
+}
+.contact-box h1{
+    color: red;
+}
+.contact-box p{
+    color: black;
 }

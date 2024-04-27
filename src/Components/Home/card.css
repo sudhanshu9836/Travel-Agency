@@ -8,18 +8,19 @@
 
 #cityName{
     background-color: #128dba;
-    width: 70px;
-    height: 20px;
+    display: inline;
+    width: auto;
+    height: auto;
     padding: 10px;
     margin-left: 25px;
     position: relative;
-    top: 10px;
+    top: 30px;
     border-radius: 5px;
 }
 
 .bottom{
     position: relative;
-    top: 250px;
+    top: 280px;
     left: 20px;
 }
 .bottom h3{
