@@ -63,6 +63,7 @@
   }
 .segment4{
     text-align: center;
+    
 }
 .segment5 {
     display: flex;
@@ -149,6 +150,18 @@
     color: black;
     margin-top: 10px;
 }
+#bt1_packages{
+  height: 40px;
+  width: 150px;
+  color: white;
+  margin-left: 37vw;
+  background-color: rgba(222, 95, 87, 1);
+  cursor: pointer;
+  font-size: 1.3vw;
+  border-radius: 3vw;
+  margin-top: 20px;
+}
+
 
 /* Segment 6 stylings */
 .segment6{

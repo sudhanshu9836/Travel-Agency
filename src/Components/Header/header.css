@@ -22,13 +22,18 @@ html,body{
     filter: contrast(0.9);
     color: white;
 }
+.fa-bars{
+    display: none;
+}
 .navigation-bar{
     height: 40px;
    
     display: flex;
     justify-content: space-around;
 }
-
+.links{
+    margin-top: 1.2vw;
+}
 /* Button stylings */
 
 .bt-t1{
@@ -47,6 +52,19 @@ html,body{
     font-size: 1.4vw;
     border-radius: 2vw;
 }
+#bt1_header {
+    margin-top: 2vh;
+    font-size: 1.9vh;
+    font-weight: 600;
+    border-radius: 2vh;
+    height: 40px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    background-color: rgba(222,95,87,1);
+    cursor: pointer;
+    border-radius: 3vw;
+  }
 
 /* links styling */
 
@@ -54,7 +72,8 @@ html,body{
     color: white;
     text-decoration: none;
     font-size: 1.2em;
-    margin: 30px;
+    margin: 0 30px 0 30px;
+    
     font-weight: 600;
 }
 

@@ -1,13 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
+import "./header_responsive.css";
 function Header() {
+
+const menuIcon_click = () => {
+document.querySelector(".links").classList.toggle("show");
+}
   return (
     <div id="header">
       <div className="navigation-bar">
-        <h2 id="logo">
-          Travalo<i className="fa-solid fa-plane-departure"></i>
-        </h2>
+        <div className="nav_list">
+          <h2 id="logo">
+            Travalo<i className="fa-solid fa-plane-departure"></i>
+          </h2>
+          <i className="fa-solid fa-bars" onClick={menuIcon_click}></i>
+        </div>
         <div className="links">
           <Link to={"/"} className="nav-links">
             HOME
@@ -16,8 +24,11 @@ function Header() {
             ABOUT
           </Link>
           <Link className="nav-links">BLOG</Link>
-          <Link to={"/contact"} className="nav-links">CONTACT</Link>
-          <button className="bt-t1" id="bt1">
+          <Link to={"/contact"} className="nav-links">
+            CONTACT
+          </Link>
+          
+          <button  id="bt1_header">
             BOOK NOW
           </button>
         </div>

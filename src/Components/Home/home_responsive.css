@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+    /* .images{
+        overflow: hidden;
+    }
+.contact-box{
+    overflow: hidden;
+} */
+.home{
+    overflow: hidden;   
+}
+}

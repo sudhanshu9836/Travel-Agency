@@ -1,5 +1,6 @@
 import React from 'react'
 import "./package.css"
+import "./package_resp.css"
 function Package({price,image, time, people, location, heading, reviews, para}) {
   return (
     <div className='package'>

@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .package{
+        height: 600px;
+        width: 320px;
+        border: 2px solid lightgray;
+        overflow: hidden;
+        
+    }
+}
