@@ -63,28 +63,33 @@ function About() {
               <div className="whyUs_content ">
                 <h3>Quality</h3>
                 <p>
-                
+                Choose us for your travel needs because we prioritize quality experiences above all else.
+                 With meticulous attention to detail and a commitment to excellence, we ensure every journey 
+                 is seamless, memorable, and exceeds expectations
                 </p>
               </div>
               <div className="whyUs_content">
                 <h3>Price</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  doloribus?
+                Choose us for your travel needs because we offer competitive prices without compromising on 
+                quality. Enjoy incredible value for your money, ensuring budget-friendly options without 
+                sacrificing the excellence of your travel experience.
                 </p>
               </div>
               <div className="whyUs_content">
                 <h3>Support</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  doloribus?
+                Choose us for your travel needs because our dedicated support team is available around the clock to 
+                assist you. From booking assistance to resolving any travel-related queries, trust us to provide 
+                prompt and reliable support, ensuring a stress-free and enjoyable journey.
                 </p>
               </div>
               <div className="whyUs_content">
                 <h3>Experience</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  doloribus?
+                Choose us for your travel needs because we bring years of industry experience to the table. With a 
+                proven track record of delivering exceptional travel experiences, trust us to leverage our expertise
+                 to ensure your journey is seamless, memorable, and tailored to your preferences
                 </p>
               </div>
             </div>
@@ -103,19 +108,23 @@ function About() {
               <div className="moto_items">
                 <h3>Customer satisfaction: </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi non beatae ut labore reiciendis eos, tempora nobis
-                  numquam nihil, facere, distinctio molestiae est pariatur ipsa
-                  corrupti perferendis fugiat deleniti accusamus?
+                At Travelo, our commitment to customer satisfaction is unwavering. From the moment you start planning
+                 your trip to the moment you return home, we strive to exceed your expectations at every turn. 
+                 Our experienced team is dedicated to crafting personalized experiences that cater to your unique
+                  preferences and needs. We value your feedback and are constantly seeking ways to enhance our services 
+                  to ensure your journey with us is nothing short of extraordinary. Your satisfaction is our greatest 
+                  reward, and we look forward to welcoming you on your next adventure.
                 </p>
               </div>
               <div className="moto_items">
                 <h3>Quality services:</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptas est odit, asperiores possimus ad sunt dolores nobis
-                  harum maxime architecto, consequuntur quo totam optio et
-                  repellendus, aspernatur distinctio officia natus!
+                At Travelo, we pride ourselves on delivering top-notch services that elevate every aspect of 
+                your travel experience. From meticulously curated itineraries to seamless booking processes and
+                 expert guidance, we ensure that every detail of your journey is meticulously planned and
+                  executed. Our team of seasoned professionals is dedicated to providing personalized attention
+                   and assistance, ensuring that your trip exceeds expectations every step of the way. Trust us
+                    to deliver exceptional quality and reliability, so you can focus on making unforgettable memories
                 </p>
               </div>
             </div>
@@ -164,10 +173,9 @@ function About() {
                 src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
-              <h5>Mr. XYZ</h5>
+              <h5>Mr.Potter</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-                laboriosam.
+              "Travelo  turned my travel dreams into unforgettable memories!"
               </p>
             </div>
             <div className="testimonials_card">
@@ -175,10 +183,9 @@ function About() {
                 src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
-              <h5>Mr. XYZ</h5>
+              <h5>Mr. Weasley</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-                laboriosam.
+              They handled everything, so I could just relax and enjoy the adventure. Thanks, Travelo !
               </p>
             </div>
             <div className="testimonials_card">
@@ -186,10 +193,9 @@ function About() {
                 src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
-              <h5>Mr. XYZ</h5>
+              <h5>Mr. Malfoy</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-                laboriosam.
+              Expert advice, great deals - Travelo  made planning a breeze.
               </p>
             </div>
             <div className="testimonials_card">
@@ -197,10 +203,9 @@ function About() {
                 src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
-              <h5>Mr. XYZ</h5>
+              <h5>Mr. Granger</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-                laboriosam.
+              The world is my oyster, thanks to Travelo 's incredible service!
               </p>
             </div>
           </div>
