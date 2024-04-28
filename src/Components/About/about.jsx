@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./About.css";
 function About() {
   return (
-    <div>
+    <div className="about_section_parent">
       <div className="company_profile">
         <h2>About our agency</h2>
         <div className="about_list">
@@ -21,7 +21,7 @@ function About() {
             Our services
           </a>
 
-          <a href="" className="About_list_li">
+          <a href="#about_testimonials" className="About_list_li">
             Testimonials
           </a>
         </div>
@@ -160,7 +160,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="about_testimonials">
+        <div className="about_testimonials" id="about_testimonials">
           <h3>Testimonials</h3>
           <div className="testimonials_contanier">
             <div className="testimonials_card">
