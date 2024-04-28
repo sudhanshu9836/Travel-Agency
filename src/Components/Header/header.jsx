@@ -16,7 +16,7 @@ function Header() {
             ABOUT
           </Link>
           <Link className="nav-links">BLOG</Link>
-          <Link className="nav-links">CONTACT</Link>
+          <Link to={"/contact"} className="nav-links">CONTACT</Link>
           <button className="bt-t1" id="bt1">
             BOOK NOW
           </button>
