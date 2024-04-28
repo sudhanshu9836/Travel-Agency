@@ -1,7 +1,6 @@
 .home{
     margin: 100px;
 }
-
 /* Segment  styling */
 
 .segment-description{
@@ -28,9 +27,20 @@
     margin-top: 100px;
     display: flex;
 }
+.segment4{
+    text-align: center;
+}
+.segment5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.segment5 img{
+        height: 400px;
+        width: auto;
+}
 /* Cards/Packages styling */
 
-.cards, .packages{
+.cards, .packages, .hidden-package{
     display: flex;
     justify-content: space-around;
 }
@@ -38,6 +48,7 @@
 .package{
     margin-top: 50px;
 }
+
 
 /* Icon styling */
 
@@ -75,9 +86,10 @@
 .contact-box{
     display: flex;
     border: 2px solid white;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     border-radius: 5px;
+    transform: translateY(50px);
 }
 .contact-box i{
     transform: translateY(30px);
@@ -89,5 +101,41 @@
     color: red;
 }
 .contact-box p{
+    color: black;
+}
+
+.segment4 p{
+    color: black;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images img{
+    height: 350px;
+    width: 250px;
+}
+
+.images-box{
+    height: 400px;
+    border: 2px solid lightgray;
+}
+.images-box h4{
+    color: black;
+    margin-top: 10px;
+}
+
+/* Segment 6 stylings */
+.segment6{
+    margin-top: 100px;
+    height: 500px;
+    border: 2px solid lightgray;
+    background-size: cover;
+    padding: 40px 150px;
+    margin-bottom: -100px;
+}
+.segment6 p{
     color: black;
 }

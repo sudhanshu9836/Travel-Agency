@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./home.css"
 import Card from './card'
 import Package from './package'
 function Home() {
+  const [hidePackage, setHidePackage] = useState(false);
   return (
     <div className='home'>
       <div className="segment1">
@@ -65,8 +66,43 @@ function Home() {
             people={5}
             para={"jsifhwuiehhedbcbcndfjehfuhruhe"}
             />
-          </div>
-          <button id='bt1'>View All Packages</button>
+            </div>
+            <div className="hidden-package" style={{display: hidePackage?"flex":"none"}}>
+              <Package
+              image={"https://i.pinimg.com/564x/90/bd/10/90bd10235c6a48e896f03b6c2e56a1ec.jpg"}
+              price={10000}
+              time={"3D/4N"}
+              location={"Varanasi"}
+              heading={"Discovering Cultural Capital of India"}
+              reviews={"★★★☆☆"}
+              people={5}
+              para={"loreqlwekk32jei32jieji39e1iwnjdanjjefijijirji"}
+              />
+              <Package
+              image={"https://i.pinimg.com/564x/03/79/e3/0379e3670519e9aba350731d1115c961.jpg"}
+              price={20000}
+              time={"5D/5N"}
+              location={"Goa"}
+              heading={"Relaxing on the Sunny and stunning beaches"}
+              reviews={"★★★★☆"}
+              people={2}
+              para={"djjedieo3i9eojiendjkenjndjediiuieiwiidiji"}
+              />
+              <Package
+              image={"https://i.pinimg.com/564x/9f/3f/8a/9f3f8abd3d355a186cac70713af2cad4.jpg"}
+              price={18000}
+              time={"4D/4N"}
+              location={"Udaipur"}
+              heading={"Boating and exploring the City of Lakes"}
+              reviews={"★★★★☆"}
+              people={2}
+              para={"adkekei0ei0i20io2ioiw0iisnjsncjdjkosdo"}
+              />
+            </div>
+          <button id='bt1' style={{display: hidePackage?"none":"inline"}}
+          onClick={()=>{setHidePackage(true)}}>View All Packages</button>
+          <button id='bt1' style={{display: hidePackage?"inline":"none"}}
+          onClick={()=>{setHidePackage(false)}}>See less</button>
       </div>
       <div className="segment3">
         <img src="https://i.pinimg.com/564x/75/f7/a4/75f7a49f0a16de42632289d97204274a.jpg" alt="image" />
@@ -113,6 +149,52 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="segment4">
+      <div className="segment-description">Travel by Activity</div>
+          <div className="segment-heading">ADVENTURE AND ACTIVITY</div>
+          <p className='segment3-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi tenetur dolor repudiandae libero laborum explicabo aspernatur doloribus eaque eos cupiditate consequatur deleniti, perferendis vel, fugit praesentium consequuntur? Molestiae, consequuntur?</p>
+          <div className="images">
+            <div className='images-box'>
+            <img src="https://i.pinimg.com/564x/be/46/34/be4634680fcce59ad55035d2eae4db8c.jpg" alt="img" />
+            <h4>Trekking</h4>
+            </div>
+            <div className='images-box'>
+            <img src="https://i.pinimg.com/564x/03/1f/55/031f550c198fc8b73e9d1a0139f0f0e1.jpg" alt="img" />
+              <h4>Camp Fire</h4>
+            </div>
+            <div className='images-box'>
+            <img src="https://i.pinimg.com/564x/0b/89/2e/0b892e1638003eeed05fdbf26281413a.jpg" alt="img" />
+            <h4>Camping</h4>
+            </div>
+            <div className='images-box'>
+            <img src="https://i.pinimg.com/564x/84/d2/b0/84d2b040ff89178c6622c98a62227d2a.jpg" alt="img" />
+            <h4>Off Road</h4>
+            </div>
+
+          </div>
+      </div>
+      <br /><br /><br /> <br /><br /><br /><br />
+          <div className="segment-heading">BEST TRAVELER'S SHARED PHOTOS</div> 
+          <br /><br /> 
+      <div className="segment5">    
+        <img src="https://i.pinimg.com/564x/51/c7/b7/51c7b7b02041652509d58716899c6a22.jpg" alt="" />
+        <img src="https://i.pinimg.com/564x/60/5a/39/605a39bd855753637c565e76ef12a619.jpg" alt="" />
+        <img src="https://i.pinimg.com/564x/41/19/73/411973cee24645105071f19842757ab9.jpg" alt="" />
+        <img src="https://i.pinimg.com/564x/40/82/59/408259ab71a98f0e4b7709c22d8b748d.jpg" alt="" />
+        <img src="https://i.pinimg.com/736x/2d/ec/f0/2decf0d2566eb3c13d122171e4a19dbd.jpg" alt="" />
+        <img src="https://i.pinimg.com/564x/a4/11/70/a411703f77db8d0e516ff6561e7e69fd.jpg" alt="" />
+      </div> 
+      <div className="segment6">
+      <div className="segment-description">----HOLIDAY PACKAGE OFFER</div>
+          <div className="segment-heading">HOLIDAY SPECIAL 25% OFF !</div>
+          <p className='segment6-para'> Sign up now to recieve hot special offers and information about the best
+          tour packages, updates and discounts !! </p>
+          <div>
+          <input type="email" placeholder='Your Email Address..'/>
+          <button id='bt1'>Sign Up Now</button>
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur quaerat fugiat sint magnam exercitationem, quo aperiam mollitia itaque ab similique commodi vitae saepe at quasi rem! Maxime veniam impedit numquam.\</p>
+        </div>   
     </div>
   )
 }
