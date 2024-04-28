@@ -13,7 +13,6 @@ function About() {
           <a href="#ourMoto" className="About_list_li">
             Our Moto
           </a>
-
           <a href="#whyUs" className="About_list_li">
             Why choose us
           </a>

@@ -16,7 +16,7 @@ function Header(){
             <Link  className='nav-links'>
                 BLOG
             </Link>
-            <Link  className='nav-links'>
+            <Link to={"/contact"} className='nav-links'>
                 CONTACT
             </Link>
             </div>
