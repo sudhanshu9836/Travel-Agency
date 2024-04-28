@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
+import "./home_responsive.css";
 import Card from "./card";
 import Package from "./package";
 function Home() {
@@ -128,7 +129,7 @@ function Home() {
           />
         </div>
         <button
-          id="bt1"
+          id="bt1_packages"
           style={{ display: hidePackage ? "none" : "inline" }}
           onClick={() => {
             setHidePackage(true);
@@ -137,7 +138,7 @@ function Home() {
           View All Packages
         </button>
         <button
-          id="bt1"
+          id="bt1_packages"
           style={{ display: hidePackage ? "inline" : "none" }}
           onClick={() => {
             setHidePackage(false);
