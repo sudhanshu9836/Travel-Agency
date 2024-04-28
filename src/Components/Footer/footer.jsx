@@ -17,7 +17,7 @@ function Footer() {
                 </article>
                 <article className="footer-box footer-address">
                     <h2>Address</h2>
-                    <div className="footer-content">
+                    <div className="footer-container">
                         <div className="footer-place">
                             <span className="fas fa-map-marker-alt"></span>
                             <span className="text">Bhopal, Madhya Pradesh</span>
@@ -36,12 +36,12 @@ function Footer() {
                     <h2>Contact Us</h2>
                     <form className="footer-form" aria-label="Contact Form">
                         <div className="footer-form-group">
-                            <label htmlFor="email">Email *</label>
-                            <input type="email" id="email" name="email" required />
+                            <label htmlFor="email">Email </label>
+                            <input type="email" className='contactUs_entity' id="email" name="email"  placeholder='Enter E-mail' required />
                         </div>
                         <div className="footer-form-group">
-                            <label htmlFor="message">Message *</label>
-                            <textarea id="message" name="message" cols="30" rows="3" required></textarea>
+                            <label htmlFor="message">Message </label>
+                            <input type='text' id="message" name="message" className='contactUs_entity_message' placeholder='Your message' required /> 
                         </div>
                         <div className="footer-btn">
                             <button id='bt1' type="submit">Send</button>
@@ -50,7 +50,7 @@ function Footer() {
                 </article>
             </section>
             <p className="footer-copyright">
-                Copyright &copy; 2027 - All rights reserved
+                Copyright &copy; 2024 - All rights reserved
             </p>
         </footer>
     );
