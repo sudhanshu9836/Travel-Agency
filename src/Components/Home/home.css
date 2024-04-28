@@ -4,16 +4,17 @@
 /* Segment  styling */
 
 .segment-description{
-    margin-top: 100px;
+    margin-top: 4vw;
     color: rgba(222,95,87,1);
 }
 .segment-heading{
-    font-size: 50px;
+    font-size: 2.5vw;
     font-family: "Anton", sans-serif;
     font-weight: 700;;
     letter-spacing: 2px;
     color: #101f46;
-    margin-bottom: 50px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 .segment2-para{
     color: black;
@@ -23,21 +24,64 @@
     margin: 50px 40%;
     transform: translateY(50px);
 }
-.segment3{
+.segment3 {
     margin-top: 100px;
+    height: 42vw;
+    margin-left: 4vw;
     display: flex;
-}
+  }
+  .box {
+    width: 60%;
+    height: auto;
+    padding: 1vw  0 0 2.5vw;
+    border: 2px solid black;
+    background-color: #0791be;
+  }
+  .segment3-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  .icon {
+    width: 33%;
+    display: flex;
+    margin-left: 3vw;
+  }
+  .icon i {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+  }
+  .box p {
+    margin: 20px 0px;
+    line-height: 1.4em;
+  }
+  .box h1 {
+    margin: 10px 0px;
+    font-size: 1.8vw;
+  }
 .segment4{
     text-align: center;
 }
-.segment5{
+.segment5 {
     display: flex;
-    flex-wrap: wrap;
-}
-.segment5 img{
-        height: 400px;
-        width: auto;
-}
+    gap: .3vw;
+    overflow: hidden;
+  }
+  .segment5b {
+    display: flex;
+    gap: .3vw;
+    overflow: hidden;
+  }
+  .segment5 img {
+    height: 250px;
+    width: auto;
+  }
+  .segment5b img {
+    height: 250px;
+    width: auto;
+  }
 /* Cards/Packages styling */
 
 .cards, .packages, .hidden-package{
@@ -50,60 +94,39 @@
 }
 
 
-/* Icon styling */
-
-.box{
-    width: 60%;
-    height: auto;
-    padding: 50px;
-    border: 2px solid black;
-    background-color: #0791be;
-}
-.segment3-icons{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.icon{
-    width: 40%;
-    display: flex;
-    margin: 30px;
-}
-.icon i{
-    margin-top: 10px;
-    margin-right: 20px;
-    font-size: 25px;
-}
-.box p{
-    margin: 20px 0px;
-    line-height: 1.4em;
-}
-.box h1{
-    margin: 10px 0px;
-    
-}
-
 .contact-box{
     display: flex;
     border: 2px solid white;
-    padding: 10px;
+    padding: 0 0 2vw 3vw;
     background-color: white;
     border-radius: 5px;
-    transform: translateY(50px);
+    margin-right: 2vw;
 }
-.contact-box i{
+.contact-box i {
     transform: translateY(30px);
     margin: 0px 50px;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
-}
-.contact-box h1{
+  }
+  .contact-box h2 {
     color: red;
-}
-.contact-box p{
+    font-size: 1.8vw;
+  }
+  .contact-box p{
     color: black;
 }
-
+.segment4-description{
+    color: #000000;
+    margin: 2vw 0 1vw 0;
+  
+  }
+  .segment4-heading{
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.8vw;
+    padding: 1vw 0 1.5vw 0;
+    
+  }
 .segment4 p{
     color: black;
     margin-top: -15px;
@@ -129,14 +152,49 @@
 
 /* Segment 6 stylings */
 .segment6{
-    margin-top: 100px;
+    margin: 3vw 0 0vw 0;
     height: 500px;
     border: 2px solid lightgray;
-    background-image: url("https://cdn.pixabay.com/photo/2023/08/05/14/24/twilight-8171206_1280.jpg");
+    background-image: url("https://images.pexels.com/photos/6057134/pexels-photo-6057134.jpeg?cs=srgb&dl=pexels-shkrabaanthony-6057134.jpg&fm=jpg");
     background-size: cover;
-    padding: 40px 150px;
-    margin-bottom: -100px;
+    padding: 8vw 0 0 6vw;
+    align-items: center;
 }
-.segment6 p{
+.segment6 p {
     color: black;
-}
+    width: 50%;
+    margin-left: 16vw;
+    margin-bottom: 0vw;
+  }
+  .segment-description_offer{
+   margin-left: 3vw;
+    color: #000000;
+    font-weight: 700;
+  }
+  .segment-heading_offer{
+    margin-top: 4vw;
+    color: #000000;
+    margin-left: 16vw;
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+  }
+  .offer_login{
+    margin-top: 1vw;
+    margin-left: 20vw;
+    margin-bottom: 2vw;
+  }
+  .offer_login input{
+    width: auto;
+    height: 2.5vw;
+    border-radius: 3vw;
+    color: #000000;
+    font-size: 1.4vw;
+    text-align: center;
+    padding: 0  1.5vw 0 1.5vw;
+    background-color: transparent;
+  }
+  .offer_login input:hover{
+    background-color: tomato;
+  
+    color: white;
+  }

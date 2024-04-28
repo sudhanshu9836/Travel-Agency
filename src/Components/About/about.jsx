@@ -28,22 +28,21 @@ function About() {
           <h2>About Company</h2>
           <div className="about_container">
             <p className="descriptionOfCompany">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-              autem, vitae unde fugiat eveniet, cupiditate, odio iste mollitia
-              recusandae possimus quas ut porro similique aliquam doloribus.
-              Molestiae aliquam dolore quasi atque quibusdam nihil voluptatum
-              iure quisquam quos sint nulla quod omnis illum suscipit explicabo,
-              non, quam saepe, esse ad? Vel voluptates beatae ex facilis rerum
-              recusandae repellat dolores rem assumenda! Sequi minima tenetur
-              culpa iure, in labore nemo perspiciatis magni. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Optio voluptatum sunt
-              inventore eaque deserunt repellendus omnis. Ab ea ipsum odit fugit
-              assumenda numquam delectus, eaque porro corrupti veritatis ipsam,
-              quod hic dolores quam? Corporis ipsam sint quas blanditiis
-              voluptatem praesentium, aperiam nulla obcaecati sed assumenda in,
-              aut veniam velit molestias unde dolores consequuntur numquam
-              dicta. Tenetur voluptatum deserunt veritatis aliquam consequuntur
-              distinctio q
+            Welcome to Travelo, where the love for exploration meets the power of technology. 
+            Our journey began with a simple yet profound belief: that travel has the remarkable 
+            ability to enrich lives, foster understanding, and connect people across borders. 
+            Founded by a diverse team of seasoned globetrotters, travel enthusiasts, and tech innovators,
+            our platform is more than just a tool for booking flights and hotels; it's a gateway to
+            immersive experiences, cultural exchange, and personal growth. At Travelo, we're dedicated to
+            democratizing travel, making it accessible to all, regardless of budget, background, or expertise.
+            From backpackers seeking off-the-beaten-path adventures to luxury travelers craving indulgent
+            escapes, we cater to every wanderlust-driven soul. Our commitment to excellence extends beyond
+            our digital platform; it's woven into the fabric of every interaction, every recommendation, 
+            and every partnership we forge. Whether you're embarking on a solo expedition, planning a romantic
+            getaway, or organizing a group retreat, we're here to be your trusted companion, guiding you 
+            through the vast tapestry of the world's wonders. Join us on this exhilarating journey of 
+            discovery, where each destination is a chapter waiting to be written, and every traveler is a 
+            protagonist in their own story. Experience the world with Travelo, where every adventure begins.
             </p>
             <div className="img_container">
               <img
@@ -52,8 +51,7 @@ function About() {
                 alt="travel_image"
               />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-                doloribus numquam error
+              Travelo: where the journey becomes the destination, and every moment is a story waiting to be told.
               </p>
             </div>
           </div>
@@ -65,8 +63,7 @@ function About() {
               <div className="whyUs_content ">
                 <h3>Quality</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  doloribus?
+                
                 </p>
               </div>
               <div className="whyUs_content">
@@ -131,12 +128,12 @@ function About() {
           <div className="about_header">
             <h2>About Services</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              beatae nesciunt, excepturi quasi ea magni aspernatur quas rem
-              ducimus vitae. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Architecto laboriosam eveniet aliquid quod doloremque
-              assumenda rem id doloribus accusantium, odit voluptas adipisci
-              unde ea tempore aperiam iure aut quae illo.
+            Our travel website offers a comprehensive range of services designed to enhance every aspect
+             of your journey. From seamless booking experiences to personalized trip planning and expert 
+             travel advice, we're here to make your travel dreams a reality. Explore our array of services,
+              including flight and hotel bookings, destination guides, travel insurance, and more, all aimed
+               at ensuring your trip is unforgettable from start to finish. Let us be your trusted partner in
+                exploring the world and creating memories that last a lifetime.
             </p>
           </div>
           <div className="about_services_description">
