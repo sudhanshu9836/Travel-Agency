@@ -7,7 +7,10 @@ function Footer() {
             <section className="footer-content">
                 <article className="footer-box footer-about">
                     <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolor molestiae blanditiis sequi eius et! Libero iure, officiis earum nulla modi possimus dolor quae molestias corrupti facere voluptatem magnam a.</p>
+                    <p>Travelo, where the love for exploration meets the power of technology. &nbsp; 
+                    Travelo combines the passion for adventure and exploration with cutting-edge technology to offer exceptional travel experiences.
+                    </p>
+                    
                     <div className="footer-social">
                         <a href="https://www.facebook.com" aria-label="Facebook"><span className="fab fa-facebook-f"></span></a>
                         <a href="https://twitter.com" aria-label="Twitter"><span className="fab fa-twitter"></span></a>
@@ -34,7 +37,7 @@ function Footer() {
                 </article>
                 <article className="footer-box footer-contact">
                     <h2>Contact Us</h2>
-                    <form className="footer-form" aria-label="Contact Form">
+                    <form className="footer-form" aria-label="Contact Form" >
                         <div className="footer-form-group">
                             <label htmlFor="email">Email </label>
                             <input type="email" className='contactUs_entity' id="email" name="email"  placeholder='Enter E-mail' required />

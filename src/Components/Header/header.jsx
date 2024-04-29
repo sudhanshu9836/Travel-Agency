@@ -8,6 +8,21 @@ function Header() {
   const [pop, setPop] = useState(false);
   const [price, setPrice] = useState(1);
 
+  function booked(){
+    let btn = document.getElementById("bt1_popup");
+    btn.innerText = "Booked";
+    btn.style.backgroundColor = "grey";
+  }
+  const handleSubmit = (event)=>{
+      event.preventDefault();
+      const form = event.currentTarget.form;
+      if (form.checkValidity()){
+        booked();
+      }
+      else{
+        form.reportValidity();
+      }
+  }
   return (
     <>
       <div id="header" >
@@ -28,7 +43,9 @@ function Header() {
             <Link to={"/about"} className="nav-links">
               ABOUT
             </Link>
-            <Link className="nav-links">BLOG</Link>
+            <Link to={"/blogs"} className="nav-links">
+              BLOG
+              </Link>
             <Link to={"/contact"} className="nav-links">
               CONTACT
             </Link>
@@ -38,7 +55,9 @@ function Header() {
           </div>
         </div>
         <form id="booking-main" style={{ display: pop ? "inline-block" : "none" }}>
-          <div className="cross" onClick={() => setPop(false)}>
+          <div className="cross" onClick={() => {
+            setPop(false)
+           } }>
             X
           </div>
           <div className="inputs">
@@ -86,7 +105,7 @@ function Header() {
               <option value="Varanasi">Varanasi</option>
             </select>
           </div>
-          <button id="bt1_popup">Book now</button>
+          <button id="bt1_popup" onClick={handleSubmit}>Book now</button>
         </form>
 
         <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
@@ -107,9 +126,11 @@ function Header() {
             details are taken care of. Let us help you create memories that will
             last a lifetime.
           </p>
+          <Link to={"/blogs"}>
           <button className="bt-t1" id="bt2">
             Read More
           </button>
+          </Link>
         </div>
         
       </div>

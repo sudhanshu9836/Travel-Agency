@@ -108,7 +108,6 @@ body {
   top: -40vw;
   left: 28%;
   z-index: 3;
-  /* translate: 0 -40vw; */
 }
 .inputs {
   display: flex;

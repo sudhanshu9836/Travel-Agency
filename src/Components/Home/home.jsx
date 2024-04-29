@@ -45,14 +45,9 @@ function Home() {
         <div className="segment-description">EXPLORE GREAT PLACES</div>
         <div className="segment-heading">POPULAR PACKAGES</div>
         <p className="segment2-para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi
-          tenetur dolor repudiandae libero laborum explicabo aspernatur
-          doloribus eaque eos cupiditate consequatur deleniti, perferendis vel,
-          fugit praesentium consequuntur? Molestiae, consequuntur? Iure totam
-          omnis ut pariatur eos optio fugit nobis eveniet sapiente dolores
-          molestias, et iste quia labore dolor illo id amet eligendi numquam ab
-          exercitationem harum. Illo ab sunt beatae.
-        </p>
+  Discover a world of breathtaking destinations with our carefully curated packages. From sun-soaked beaches to majestic mountains, our travel options are designed to suit every kind of explorer. Whether you're seeking adventure, relaxation, or cultural immersion, we offer unforgettable experiences that will leave you with cherished memories. Let us guide you on your next journey to explore the wonders of the world.
+</p>
+
         <div className="packages">
           <Package
             image={

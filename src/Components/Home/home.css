@@ -83,6 +83,9 @@
     height: 250px;
     width: auto;
   }
+  .segment5 img:hover, .segment5b img:hover{
+    transform: scale(1.1);
+  }
 /* Cards/Packages styling */
 
 .cards, .packages, .hidden-package{
