@@ -12,7 +12,7 @@ function Header() {
       <div id="header" >
 
         <div className="navigation-bar">
-          <h2 id="logo" style={{ marginRight: pop ? "70vw" : "0" }}>
+          <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
             Travalo<i className="fa-solid fa-plane-departure"></i>
           </h2>
           <div className="links" style={{ display: pop ? "none" : "block" }}>
