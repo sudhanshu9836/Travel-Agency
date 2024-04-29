@@ -3,35 +3,6 @@ import { Link } from "react-router-dom";
 import "./header.css";
 import "./header_responsive.css";
 function Header() {
-<<<<<<< Updated upstream
-
-const menuIcon_click = () => {
-document.querySelector(".links").classList.toggle("show");
-}
-  return (
-    <div id="header">
-      <div className="navigation-bar">
-        <div className="nav_list">
-          <h2 id="logo">
-            Travalo<i className="fa-solid fa-plane-departure"></i>
-          </h2>
-          <i className="fa-solid fa-bars" onClick={menuIcon_click}></i>
-        </div>
-        <div className="links">
-          <Link to={"/"} className="nav-links">
-            HOME
-          </Link>
-          <Link to={"/about"} className="nav-links">
-            ABOUT
-          </Link>
-          <Link className="nav-links">BLOG</Link>
-          <Link to={"/contact"} className="nav-links">
-            CONTACT
-          </Link>
-          
-          <button  id="bt1_header">
-            BOOK NOW
-=======
   let person;
   const [pop, setPop] = useState(false);
   const [price, setPrice] = useState(1);
@@ -118,7 +89,7 @@ document.querySelector(".links").classList.toggle("show");
           <br />
           <br />
           <p id="banner-para">
-            Traveling is one of life's greatest joys, offering the chance to
+            Traveling is one of life greatest joys, offering the chance to
             explore new cultures, savor exotic cuisines, and immerse yourself in
             unfamiliar landscapes. Whether you seek adventure, relaxation, or a
             deeper connection with the world, our travel agency is here to guide
@@ -131,36 +102,12 @@ document.querySelector(".links").classList.toggle("show");
           </p>
           <button className="bt-t1" id="bt2">
             Read More
->>>>>>> Stashed changes
           </button>
         </div>
         
       </div>
-<<<<<<< Updated upstream
-      <h1 id="banner-text">
-        TRAVELLING AROUND <br /> INDIA
-      </h1>{" "}
-      <br />
-      <br />
-      <p id="banner-para">
-        Traveling is one of life's greatest joys, offering the chance to explore
-        new cultures, savor exotic cuisines, and immerse yourself in unfamiliar
-        landscapes. Whether you seek adventure, relaxation, or a deeper
-        connection with the world, our travel agency is here to guide you.We
-        provide personalized travel planning and curated experiences tailored to
-        your interests, ensuring every aspect of your trip is smooth and
-        enjoyable. With our expertise, you can focus on soaking in the beauty
-        and wonder of your journey, knowing that all the details are taken care
-        of. Let us help you create memories that will last a lifetime.
-      </p>
-      <button className="bt-t1" id="bt2">
-        Read More
-      </button>
-    </div>
-=======
       
     </>
->>>>>>> Stashed changes
   );
 }
 
