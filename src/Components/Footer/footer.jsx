@@ -41,10 +41,10 @@ function Footer() {
                         </div>
                         <div className="footer-form-group">
                             <label htmlFor="message">Message </label>
-                            <input type='text' id="message" name="message" className='contactUs_entity_message' placeholder='Your message' required /> 
+                            <textarea id="message" name="message" className='contactUs_entity_message' placeholder='Your message' required /> 
                         </div>
                         <div className="footer-btn">
-                            <button id='bt1' type="submit">Send</button>
+                            <button id='bt1_foot' type="submit">Send</button>
                         </div>
                     </form>
                 </article>
