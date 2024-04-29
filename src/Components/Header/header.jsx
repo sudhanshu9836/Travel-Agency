@@ -1,7 +1,8 @@
-import React from "react";
+import React ,{useState} from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 import "./header_responsive.css";
+
 function Header() {
   let person;
   const [pop, setPop] = useState(false);
@@ -11,10 +12,10 @@ function Header() {
       <div id="header" >
 
         <div className="navigation-bar">
-          <h2 id="logo">
+          <h2 id="logo" style={{ marginRight: pop ? "70vw" : "0" }}>
             Travalo<i className="fa-solid fa-plane-departure"></i>
           </h2>
-          <div className="links">
+          <div className="links" style={{ display: pop ? "none" : "block" }}>
             <Link to={"/"} className="nav-links">
               HOME
             </Link>
