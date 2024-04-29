@@ -60,7 +60,7 @@ function Home() {
             heading={"Exploring the natural beauty of island"}
             reviews={"★★★★★"}
             people={2}
-            para={"uweheuheuidhiqw3h3uy478ry"}
+            para={"Discovering the untamed allure of island life, where every sunset whispers secrets of the sea."}
           />
           <Package
             image={
@@ -72,7 +72,7 @@ function Home() {
             heading={"Tracking and biking throgh the snowy hills"}
             reviews={"★★★★☆"}
             people={2}
-            para={"jsdffhyuedghfuywghueghdgekeidj"}
+            para={"Navigating the snowy hillsides on bike, tracing nature's elegant curves with each pedal."}
           />
           <Package
             image={
@@ -84,7 +84,7 @@ function Home() {
             heading={"Exploring the heaven on India"}
             reviews={"★★★★☆"}
             people={5}
-            para={"jsifhwuiehhedbcbcndfjehfuhruhe"}
+            para={"Embarking on a heavenly journey through the enchanting landscapes of Srinagar, India."}
           />
         </div>
         <div
@@ -101,7 +101,7 @@ function Home() {
             heading={"Discovering Cultural Capital of India"}
             reviews={"★★★☆☆"}
             people={5}
-            para={"loreqlwekk32jei32jieji39e1iwnjdanjjefijijirji"}
+            para={"Timeless tapestry where spirituality, tradition, and history weave together along the sacred banks of the Ganges."}
           />
           <Package
             image={
@@ -113,7 +113,7 @@ function Home() {
             heading={"Relaxing on the Sunny and stunning beaches"}
             reviews={"★★★★☆"}
             people={2}
-            para={"djjedieo3i9eojiendjkenjndjediiuieiwiidiji"}
+            para={"Golden sands meet vibrant culture, offering a tapestry of beaches, spirituality, and endless festivities."}
           />
           <Package
             image={
@@ -125,7 +125,7 @@ function Home() {
             heading={"Boating and exploring the City of Lakes"}
             reviews={"★★★★☆"}
             people={2}
-            para={"adkekei0ei0i20io2ioiw0iisnjsncjdjkosdo"}
+            para={"Where every street tells a story and every sunset paints a masterpiece against the backdrop of majestic palaces."}
           />
         </div>
         <button

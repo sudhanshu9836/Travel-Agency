@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
+import { useState } from "react";
 function Header() {
+  let person;
+  const [ pop, setPop ] = useState(false);
+  const [price, setPrice] = useState(1);
   return (
+    <>
     <div id="header">
       <div className="navigation-bar">
         <h2 id="logo">
           Travalo<i className="fa-solid fa-plane-departure"></i>
         </h2>
-        <div className="links">
+        <div className="links">x
           <Link to={"/"} className="nav-links">
             HOME
           </Link>
@@ -17,7 +22,7 @@ function Header() {
           </Link>
           <Link className="nav-links">BLOG</Link>
           <Link to={"/contact"} className="nav-links">CONTACT</Link>
-          <button className="bt-t1" id="bt1">
+          <button className="bt-t1" id="bt1" onClick={()=> setPop(true)}>
             BOOK NOW
           </button>
         </div>
@@ -42,7 +47,36 @@ function Header() {
         Read More
       </button>
     </div>
+    <form id='booking-main' style={{ display: pop ? "block" : "none" }}>
+      <div className="cross" onClick={()=>setPop(false)}>X</div>
+      <div className='inputs'>
+      <label htmlFor="name">Name : </label>
+      <input type="text" id='name' name='name' placeholder='Enter your name' required/>
+      </div>
+      <div className='inputs'>
+      <label htmlFor="email">Email :</label>
+      <input type="email" id='email' name='email' placeholder='Enter your Email' required />
+      </div>
+      <div className='inputs'>
+      <label htmlFor="people">No of people :</label>
+      <input type="number" name="people" id="people"
+      value={person} min={1} max={10} placeholder='Enter number of people' required />
+      </div>
+      <div className='inputs'>
+      <label htmlFor="city">Destination :</label>
+      <select name="city" id="city" required>
+        <option value="default">Select destination</option>
+        <option value="Goa">Goa</option>
+        <option value="Ladakh">Ladakh</option>
+        <option value="Lakshdweep">Lakshdweep</option>
+        <option value="Srinagar">Srinagar</option>
+        <option value="Udaipur">Udaipur</option>
+        <option value="Varanasi">Varanasi</option>
+      </select>
+      </div>
+      <button id='bt1'>Book now</button>
+    </form>
+    </>
   );
 }
-
 export default Header;
