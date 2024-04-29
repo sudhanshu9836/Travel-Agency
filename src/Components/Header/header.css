@@ -104,8 +104,10 @@ body {
   flex-direction: column;
   border-radius: 0.5vw;
   padding: 10px;
+  
   position: sticky;
-  top: -40vw;
+  position: fixed;
+  top: 3vw;
   left: 28%;
   z-index: 3;
   /* translate: 0 -40vw; */

@@ -46,7 +46,34 @@ function menuClickx(){
             </button>
           </div>
         </div>
-        <form id="booking-main" style={{ display: pop ? "inline-block" : "none" }}>
+        
+
+        <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
+          <h1 id="banner-text">
+            TRAVELLING AROUND <br /> INDIA
+          </h1>{" "}
+          <br />
+          <br />
+          <p id="banner-para">
+            Traveling is one of life greatest joys, offering the chance to
+            explore new cultures, savor exotic cuisines, and immerse yourself in
+            unfamiliar landscapes. Whether you seek adventure, relaxation, or a
+            deeper connection with the world, our travel agency is here to guide
+            you.We provide personalized travel planning and curated experiences
+            tailored to your interests, ensuring every aspect of your trip is
+            smooth and enjoyable. With our expertise, you can focus on soaking
+            in the beauty and wonder of your journey, knowing that all the
+            details are taken care of. Let us help you create memories that will
+            last a lifetime.
+          </p>
+          <button className="bt-t1" id="bt2">
+            Read More
+          </button>
+        </div>
+        
+      </div>
+      
+      <form id="booking-main" style={{ display: pop ? "block" : "none" }}>
           <div className="cross" onClick={() => setPop(false)}>
             X
           </div>
@@ -98,31 +125,6 @@ function menuClickx(){
           <button id="bt1_popup">Book now</button>
         </form>
 
-        <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
-          <h1 id="banner-text">
-            TRAVELLING AROUND <br /> INDIA
-          </h1>{" "}
-          <br />
-          <br />
-          <p id="banner-para">
-            Traveling is one of life greatest joys, offering the chance to
-            explore new cultures, savor exotic cuisines, and immerse yourself in
-            unfamiliar landscapes. Whether you seek adventure, relaxation, or a
-            deeper connection with the world, our travel agency is here to guide
-            you.We provide personalized travel planning and curated experiences
-            tailored to your interests, ensuring every aspect of your trip is
-            smooth and enjoyable. With our expertise, you can focus on soaking
-            in the beauty and wonder of your journey, knowing that all the
-            details are taken care of. Let us help you create memories that will
-            last a lifetime.
-          </p>
-          <button className="bt-t1" id="bt2">
-            Read More
-          </button>
-        </div>
-        
-      </div>
-      
     </>
   );
 }
