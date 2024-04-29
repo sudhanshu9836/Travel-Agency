@@ -54,13 +54,13 @@ body {
   border-radius: 2vw;
 }
 #bt1_header {
-  margin-top: 2vh;
-  font-size: 1.9vh;
+  margin-top: 2.9vh;
+  font-size: 2.3vh;
   font-weight: 600;
   border-radius: 2vh;
   height: 40px;
   width: 150px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 8px;
   background-color: rgba(222, 95, 87, 1);
   cursor: pointer;

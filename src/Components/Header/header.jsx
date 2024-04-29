@@ -7,14 +7,20 @@ function Header() {
   let person;
   const [pop, setPop] = useState(false);
   const [price, setPrice] = useState(1);
+
   return (
     <>
       <div id="header" >
 
         <div className="navigation-bar">
+        <div className="nav_list">
           <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
             Travalo<i className="fa-solid fa-plane-departure"></i>
           </h2>
+          <i className="fa-solid fa-bars" onClick={()=>{
+            document.getElementsByClassName(".links").classList.toggle("show");
+          }}></i>
+          </div>
           <div className="links" style={{ display: pop ? "none" : "block" }}>
             <Link to={"/"} className="nav-links">
               HOME
@@ -26,7 +32,7 @@ function Header() {
             <Link to={"/contact"} className="nav-links">
               CONTACT
             </Link>
-            <button className="bt-t1" id="bt1" onClick={() => setPop(true)}>
+            <button  id="bt1_header" onClick={() => setPop(true)}>
               BOOK NOW
             </button>
           </div>
