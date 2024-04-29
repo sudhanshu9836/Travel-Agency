@@ -8,6 +8,16 @@ function Header() {
   const [pop, setPop] = useState(false);
   const [price, setPrice] = useState(1);
 
+function menuClick(){ 
+  document.querySelector("#links_id").classList.toggle("show");
+  document.querySelector(".fa-bars").style.display="none";
+  document.querySelector(".fa-xmark").style.display="block";
+}
+function menuClickx(){
+  document.querySelector("#links_id").classList.toggle("show");
+  document.querySelector(".fa-bars").style.display="block";
+  document.querySelector(".fa-xmark").style.display="none";
+}
   return (
     <>
       <div id="header" >
@@ -17,11 +27,10 @@ function Header() {
           <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
             Travalo<i className="fa-solid fa-plane-departure"></i>
           </h2>
-          <i className="fa-solid fa-bars" onClick={()=>{
-            document.getElementsByClassName(".links").classList.toggle("show");
-          }}></i>
+          <i className="fa-solid fa-bars _repo_icons" onClick={menuClick}></i>
+          <i className="fa-solid fa-xmark _repo_icons" onClick={menuClickx}></i>
           </div>
-          <div className="links" style={{ display: pop ? "none" : "block" }}>
+          <div className="links" id="links_id" style={{ display: pop ? "none" : "block" }}>
             <Link to={"/"} className="nav-links">
               HOME
             </Link>
