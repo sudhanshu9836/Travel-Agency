@@ -61,7 +61,7 @@ const Contact = () => {
             <label htmlFor="text" className="col-form-label">
               Message
             </label>
-            <input type="text" className="form-control" id="text" placeholder="Your message for us" required />
+            <textarea className="form-control " id="text" placeholder="Your message for us" required />
           </div>
 
           <div className="conatct-btn">
