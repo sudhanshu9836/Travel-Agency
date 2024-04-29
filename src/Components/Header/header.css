@@ -21,6 +21,7 @@ html,body{
     background-size: cover;
     filter: contrast(0.9);
     color: white;
+  
 }
 .fa-bars{
     display: none;
@@ -89,4 +90,80 @@ html,body{
     text-align: center;
     margin: 20px 70px 10px 70px;
     line-height: 1.3em;
+<<<<<<< Updated upstream
+=======
+}
+
+/* Booking stylings */
+
+#booking-main{
+    
+    height: 490px;
+    width: 600px;
+    border: 2px solid rgb(110, 103, 103);
+    background-color: rgba(13, 13, 13, 0.629);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: .5vw;
+    padding: 10px;
+    position: sticky;
+    top: -40vw;
+    left: 28%;
+    z-index:3;
+    /* translate: 0 -40vw; */
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+label{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 10px 10px;
+}
+input,select{
+   
+    margin-left: 10px;
+    width: 500px;
+    height: 36px;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 2vw;
+    background-color: rgb(255, 255, 255);
+   
+}
+option{
+    color: black;
+   
+}
+#bt1_popup {
+    margin-top: 3vh;
+    margin-left: 17vw;
+    font-size: 2.6vh;
+    font-weight: 500;
+    border-radius: 2vh;
+    height: 40px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    background-color: rgba(222,95,87,1);
+    cursor: pointer;
+    border-radius: 3vw;
+   
+  }
+.cross{
+    width: fit-content;
+    background-color: rgba(222,95,87,1);
+    position: relative;
+padding: .7vw;
+margin-left: 39vw;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 3vw;
+>>>>>>> Stashed changes
 }
