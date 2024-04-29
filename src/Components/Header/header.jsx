@@ -13,7 +13,7 @@ function Header() {
         <h2 id="logo">
           Travalo<i className="fa-solid fa-plane-departure"></i>
         </h2>
-        <div className="links">x
+        <div className="links">
           <Link to={"/"} className="nav-links">
             HOME
           </Link>
