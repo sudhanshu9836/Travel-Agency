@@ -8,21 +8,16 @@ function Header() {
   const [pop, setPop] = useState(false);
   const [price, setPrice] = useState(1);
 
-  function booked(){
-    let btn = document.getElementById("bt1_popup");
-    btn.innerText = "Booked";
-    btn.style.backgroundColor = "grey";
-  }
-  const handleSubmit = (event)=>{
-      event.preventDefault();
-      const form = event.currentTarget.form;
-      if (form.checkValidity()){
-        booked();
-      }
-      else{
-        form.reportValidity();
-      }
-  }
+function menuClick(){ 
+  document.querySelector("#links_id").classList.toggle("show");
+  document.querySelector(".fa-bars").style.display="none";
+  document.querySelector(".fa-xmark").style.display="block";
+}
+function menuClickx(){
+  document.querySelector("#links_id").classList.toggle("show");
+  document.querySelector(".fa-bars").style.display="block";
+  document.querySelector(".fa-xmark").style.display="none";
+}
   return (
     <>
       <div id="header" >
@@ -32,11 +27,10 @@ function Header() {
           <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
             Travalo<i className="fa-solid fa-plane-departure"></i>
           </h2>
-          <i className="fa-solid fa-bars" onClick={()=>{
-            document.getElementsByClassName(".links").classList.toggle("show");
-          }}></i>
+          <i className="fa-solid fa-bars _repo_icons" onClick={menuClick}></i>
+          <i className="fa-solid fa-xmark _repo_icons" onClick={menuClickx}></i>
           </div>
-          <div className="links" style={{ display: pop ? "none" : "block" }}>
+          <div className="links" id="links_id" style={{ display: pop ? "none" : "block" }}>
             <Link to={"/"} className="nav-links">
               HOME
             </Link>
@@ -54,10 +48,35 @@ function Header() {
             </button>
           </div>
         </div>
-        <form id="booking-main" style={{ display: pop ? "inline-block" : "none" }}>
-          <div className="cross" onClick={() => {
-            setPop(false)
-           } }>
+        
+
+        <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
+          <h1 id="banner-text">
+            TRAVELLING AROUND <br /> INDIA
+          </h1>{" "}
+          <br />
+          <br />
+          <p id="banner-para">
+            Traveling is one of life greatest joys, offering the chance to
+            explore new cultures, savor exotic cuisines, and immerse yourself in
+            unfamiliar landscapes. Whether you seek adventure, relaxation, or a
+            deeper connection with the world, our travel agency is here to guide
+            you.We provide personalized travel planning and curated experiences
+            tailored to your interests, ensuring every aspect of your trip is
+            smooth and enjoyable. With our expertise, you can focus on soaking
+            in the beauty and wonder of your journey, knowing that all the
+            details are taken care of. Let us help you create memories that will
+            last a lifetime.
+          </p>
+          <button className="bt-t1" id="bt2">
+            Read More
+          </button>
+        </div>
+        
+      </div>
+      
+      <form id="booking-main" style={{ display: pop ? "block" : "none" }}>
+          <div className="cross" onClick={() => setPop(false)}>
             X
           </div>
           <div className="inputs">
@@ -108,33 +127,6 @@ function Header() {
           <button id="bt1_popup" onClick={handleSubmit}>Book now</button>
         </form>
 
-        <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
-          <h1 id="banner-text">
-            TRAVELLING AROUND <br /> INDIA
-          </h1>{" "}
-          <br />
-          <br />
-          <p id="banner-para">
-            Traveling is one of life greatest joys, offering the chance to
-            explore new cultures, savor exotic cuisines, and immerse yourself in
-            unfamiliar landscapes. Whether you seek adventure, relaxation, or a
-            deeper connection with the world, our travel agency is here to guide
-            you.We provide personalized travel planning and curated experiences
-            tailored to your interests, ensuring every aspect of your trip is
-            smooth and enjoyable. With our expertise, you can focus on soaking
-            in the beauty and wonder of your journey, knowing that all the
-            details are taken care of. Let us help you create memories that will
-            last a lifetime.
-          </p>
-          <Link to={"/blogs"}>
-          <button className="bt-t1" id="bt2">
-            Read More
-          </button>
-          </Link>
-        </div>
-        
-      </div>
-      
     </>
   );
 }

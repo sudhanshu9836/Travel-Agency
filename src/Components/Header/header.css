@@ -24,7 +24,7 @@ body {
   filter: contrast(0.9);
   color: white;
 }
-.fa-bars {
+._repo_icons {
   display: none;
 }
 .navigation-bar {
@@ -104,8 +104,10 @@ body {
   flex-direction: column;
   border-radius: 0.5vw;
   padding: 10px;
+  
   position: sticky;
-  top: -40vw;
+  position: fixed;
+  top: 3vw;
   left: 28%;
   z-index: 3;
 }

@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
     gap: 6vh;
+    
   }
   .navigation-bar {
     height: 10vh;
@@ -17,11 +18,11 @@
   }
   .links {
     position: relative;
-   
     justify-content: center;
     background-color: rgba(187, 187, 187, 0.672);
     color: black;
     left: -100%;
+   
   }
   .show{
     left: 0%;
@@ -41,24 +42,33 @@
     font-size: 4vh;
   }
 
-  .fa-bars {
+  ._repo_icons {
     display: block;
-    font-size: 2.5em;
+    font-size: 10vw;
     padding-top: 1.4vh;
   }
+  .fa-xmark{
+    display: none;
+  }
+
   #banner-text {
     font-size: 3vh;
-    margin-top: 30vh;
+    margin-top: 33vh;
   }
   #banner-para {
     display: none;
   }
+  .banner_text_para{
+    margin-bottom: none;
+  }
   #bt2 {
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-left: 15vh;
     font-size: 1.9vh;
     border-radius: 2vh;
+    translate: 0 -5vw;
   }
+  
   #bt1_header {
     margin-left: 40vw;
     margin-bottom: 4vw;
