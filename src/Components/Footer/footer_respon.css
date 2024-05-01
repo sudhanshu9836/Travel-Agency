@@ -1,6 +1,129 @@
 @media screen and (max-width: 480px) {
+  .footer {
+    overflow: hidden;
+  }
+  .footer-content {
+    padding: 3vw 4vw 2vw 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vw;
+  }
+  .footer-box {
+    flex-basis: 80%;
+    padding: 0.4vw 0 2vw 1vw;
+    margin: 20px 0 0 0;
+  }
 
-    .footer{
-        overflow: hidden;   
-    }
+  .footer-box h2 {
+    padding: 1.5vw 0 2vw 0.2vw;
+    margin-bottom: 4vw;
+    margin-left: 11vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: fit-content;
+    text-transform: uppercase;
+  }
+  .footer-box h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1.8px;
+    background: #ff0000;
+    margin: 8px 0 0 -20px;
+  }
+  .footer-social {
+    margin-top: 2vw;
+    margin-left: 15vw;
+  }
+  .footer-social a {
+    padding: 2vw 1vw 0.6vw 0;
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .footer-address {
+    padding-left: 0;
+  }
+
+  .footer-phone {
+    margin: 3vw 0 3vw 0;
+  }
+  .text {
+    margin-left: 5vw;
+  }
+  .text-footer {
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1717;
+    color: rgb(250, 251, 251);
+  }
+  .text-footer {
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1717;
+    color: rgb(250, 251, 251);
+  }
+  .footer-contact h2 {
+    margin-left: 10vh;
+  }
+  .contactUs_entity {
+    background-color: transparent;
+    border: 2px solid rgba(222, 95, 87, 1);
+    border-radius: 4vw;
+    margin-left: 6vw;
+    width: 68.0%;
+    font-weight: 600;
+    font-size: 1.5vmax;
+    text-align: center;
+    color: #fffdfd;
+    cursor: pointer;
+    height: 33px;
+  }
+
+  .footer-form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+  }
+  .footer-form-group label {
+    margin-right: 4vw;
+  }
+  .contactUs_entity_message {
+    background-color: transparent;
+    border: 2px solid rgba(222, 95, 87, 1);
+    border-radius: 4vw;
+    width: 100%;
+    font-weight: 600;
+    font-size: 2vmax;
+    line-height: 28px;
+    color: #fffdfd;
+    margin-top: 0.8vw;
+    height: fit-content;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #bt1_foot {
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: rgba(222, 95, 87, 1);
+    cursor: pointer;
+    font-size: 4vw;
+    font-weight: 600;
+    border-radius: 4vw;
+    margin-top: 20px;
+    margin-left: 13vh;
+  }
 }
