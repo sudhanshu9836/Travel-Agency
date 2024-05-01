@@ -124,7 +124,7 @@ function menuClickx(){
               <option value="Varanasi">Varanasi</option>
             </select>
           </div>
-          <button id="bt1_popup" onClick={handleSubmit}>Book now</button>
+          <button id="bt1_popup" >Book now</button>
         </form>
 
     </>
