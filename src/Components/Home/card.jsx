@@ -1,5 +1,6 @@
 import React from 'react'
 import "./card.css"
+import "./card_respo.css"
 function Card({city,name,rating,image}) {
   return (
     <div className='main' style={{backgroundImage: `url(${image})` }}>

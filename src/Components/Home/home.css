@@ -91,6 +91,7 @@
 .cards, .packages, .hidden-package{
     display: flex;
     justify-content: space-around;
+   
 }
 
 .package{

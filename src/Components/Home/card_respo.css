@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+
+    .main{
+        height: 400px;
+        width: 320px;
+        background-size: cover;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 4vw;
+        margin-top: 3vw;
+       
+    }
+
+}

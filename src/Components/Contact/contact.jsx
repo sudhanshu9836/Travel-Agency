@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./contact.css";
+import "./contact_repo.css";
 const Contact = () => {
   return (
     <>
@@ -64,7 +64,7 @@ const Contact = () => {
             <textarea className="form-control " id="text" placeholder="Your message for us" required />
           </div>
 
-          <div className="conatct-btn">
+          <div className="contact-btn">
             <button id="bt1" type="submit">
               Send
             </button>
