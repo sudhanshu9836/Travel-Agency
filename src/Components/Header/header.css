@@ -5,6 +5,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+a {
+  text-decoration: none;
+}
 #logo {
   margin-top: 1.9vw;
   font-size: 30px;
@@ -75,9 +78,18 @@ body {
   color: white;
   text-decoration: none;
   font-size: 1.2em;
-  margin: 0 30px 0 30px;
-
+  margin-left: .8vw;
+border: 2px solid transparent;
   font-weight: 600;
+  padding: .5vw 1.8vw .5vw 1.8vw;
+}
+
+
+.nav-links:hover{
+  border: 2px solid rgb(192, 183, 183);
+  border-radius: 4vw;
+  padding: .5vw 1.8vw .5vw 1.8vw;
+
 }
 
 /* Texts */

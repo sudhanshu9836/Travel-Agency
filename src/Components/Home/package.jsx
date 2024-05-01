@@ -13,7 +13,7 @@ function Package({price,image, time, people, location, heading, reviews, para}) 
             </div>
         </div>
         <div className="bottom" id='package-bottom'>
-            <h2>{heading}</h2>
+            <h3>{heading}</h3>
             <h5>{reviews}</h5>
             <p>{para}</p>
         </div>

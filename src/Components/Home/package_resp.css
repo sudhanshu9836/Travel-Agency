@@ -1,9 +1,24 @@
 @media screen and (max-width: 480px) {
     .package{
-        height: 600px;
+        height: 580px;
         width: 320px;
         border: 2px solid lightgray;
-        overflow: hidden;
         
+        
+    }
+
+    .bottom h3, .bottom h5, .bottom p{
+        color: black;
+        width: 90%;
+      
+      
+        text-align: center;
+    }
+    #package-bottom{
+        margin-top: -250px;
+        margin-left: -20px;
+    }
+    .bottom{
+        padding: 0 1vw 0 3vw;
     }
 }

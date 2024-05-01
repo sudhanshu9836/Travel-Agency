@@ -41,11 +41,21 @@
     color: black;
     font-weight: 700;
     margin-top: 3vw;
-
-    padding-top: 4vw;
+    padding: 4vw 0vw 0vw 0vw;
+    border: 0px solid transparent;
     display: block;
     margin-left: 41vw;
   }
+ 
+  
+  
+  .nav-links:hover{
+    border: 0px solid transparent;
+    border-radius: 4vw;
+    padding: 4vw 0vw 0vw 0vw;
+  
+  }
+  
 
   #logo {
     width: 40%;
