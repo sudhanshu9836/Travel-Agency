@@ -66,9 +66,12 @@ function menuClickx(){
             details are taken care of. Let us help you create memories that will
             last a lifetime.
           </p>
-          <button className="bt-t1" id="bt2">
+          {/* <button >
             Read More
-          </button>
+          </button> */}
+          <button className="bt-t1" id="bt2" onClick={() => setPop(true)}>
+              BOOK NOW
+            </button>
         </div>
         
       </div>
