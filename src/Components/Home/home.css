@@ -223,3 +223,14 @@
     margin-top: 20px;
     margin-left: 1vw;
   }
+  #bt_offer{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgba(222, 95, 87, 1);
+    cursor: pointer;
+    font-size: 1.3vw;
+    border-radius: 3vw;
+    margin-top: 20px;
+    margin-left: 1vw;
+  }
