@@ -24,14 +24,16 @@
     width: fit-content;
     text-transform: uppercase;
   }
-  .footer-box h2::after {
+  .footer-about h2::after {
     content: "";
     display: block;
     width: 150px;
     height: 1.8px;
     background: #ff0000;
-    margin: 8px 0 0 -20px;
+    margin: 8px 0 0 -27px;
   }
+
+
   .footer-social {
     margin-top: 2vw;
     margin-left: 15vw;
@@ -44,7 +46,14 @@
   .footer-address {
     padding-left: 0;
   }
-
+  .footer-address h2::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1.8px;
+    background: #ff0000;
+    margin: 8px 0 0 -25px;
+  }
   .footer-phone {
     margin: 3vw 0 3vw 0;
   }
@@ -73,15 +82,29 @@
     background-color: #1a1717;
     color: rgb(250, 251, 251);
   }
+
+  .footer-form{
+    margin-left: -10vw;
+    margin-bottom: 0;
+   
+  }
   .footer-contact h2 {
-    margin-left: 10vh;
+    margin-left: 9vh;
+  }
+  .footer-contact h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1.8px;
+    background: #ff0000;
+    margin: 8px 0 0 -20px;
   }
   .contactUs_entity {
     background-color: transparent;
-    border: 2px solid rgba(222, 95, 87, 1);
+    border: 2px solid rgb(175, 161, 160);
     border-radius: 4vw;
-    margin-left: 6vw;
-    width: 68.0%;
+    margin-left: 10vw;
+    width: 69.0%;
     font-weight: 600;
     font-size: 1.5vmax;
     text-align: center;
@@ -97,11 +120,11 @@
     margin-top: 1vw;
   }
   .footer-form-group label {
-    margin-right: 4vw;
+    margin-right: 0vw;
   }
   .contactUs_entity_message {
     background-color: transparent;
-    border: 2px solid rgba(222, 95, 87, 1);
+    border: 2px solid rgb(161, 149, 148);
     border-radius: 4vw;
     width: 100%;
     font-weight: 600;
@@ -112,6 +135,7 @@
     height: fit-content;
     cursor: pointer;
     text-align: center;
+    margin-left: 2vw;
   }
 
   #bt1_foot {
@@ -124,6 +148,6 @@
     font-weight: 600;
     border-radius: 4vw;
     margin-top: 20px;
-    margin-left: 13vh;
+    margin-left: 16vh;
   }
 }
