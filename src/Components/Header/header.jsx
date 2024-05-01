@@ -69,7 +69,7 @@ function menuClickx(){
           {/* <button >
             Read More
           </button> */}
-          <button className="bt-t1" id="bt2" onClick={() => setPop(true)}>
+          <button className="bt-t1" id="bt2" onClick={() => setPop(true)} style={{ display: pop ? "none" : "block" }}>
               BOOK NOW
             </button>
         </div>
