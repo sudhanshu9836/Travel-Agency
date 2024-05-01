@@ -170,28 +170,28 @@ function Home() {
           </p>
           <div className="segment3-icons">
             <div className="icon">
-              <i class="fa-solid fa-users"></i>
+              <i className="fa-solid fa-users"></i>
               <div>
                 <h1>500 K+</h1>
                 <p>Satisfied Clients</p>
               </div>
             </div>
             <div className="icon">
-              <i class="fa-solid fa-user-tie"></i>
+              <i className="fa-solid fa-user-tie"></i>
               <div>
                 <h1>15 K+</h1>
                 <p>Active Members</p>
               </div>
             </div>
             <div className="icon">
-              <i class="fa-solid fa-award"></i>
+              <i className="fa-solid fa-award"></i>
               <div>
                 <h1>250+</h1>
                 <p>Award Achieved</p>
               </div>
             </div>
             <div className="icon">
-              <i class="fa-solid fa-map"></i>
+              <i className="fa-solid fa-map"></i>
               <div>
                 <h1>10 K+</h1>
                 <p>Tour Destination</p>
@@ -199,8 +199,8 @@ function Home() {
             </div>
           </div>
           <div className="contact-box">
-            <i class="fa-solid fa-phone"></i>
-            <div>
+            <i className="fa-solid fa-phone"></i>
+            <div className="c_box_details">
               <p>Our 24/7 Emergency Phone Services</p>
               <h2>Call : 123-245-7890</h2>
             </div>
@@ -305,7 +305,7 @@ function Home() {
           <input type="email" placeholder="Your Email Address.." />
           <button id="bt1">Sign Up Now</button>
         </div>
-        <p>
+        <p className="offer_p_bottom">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
           quaerat fugiat sint magnam exercitationem, quo aperiam mollitia itaque
           ab similique commodi vitae saepe at quasi rem! Maxime veniam impedit

@@ -48,7 +48,7 @@ function menuClickx(){
         </div>
         
 
-        <div className="banner_text_para" style={{ display: pop ? "none" : "block" }}>
+        <div className="banner_text_para" >
           <h1 id="banner-text">
             TRAVELLING AROUND <br /> INDIA
           </h1>{" "}
