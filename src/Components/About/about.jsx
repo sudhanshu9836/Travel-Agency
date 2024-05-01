@@ -1,6 +1,8 @@
 import React from "react";
 
+
 import "./About.css";
+import "./about_repo.css";
 function About() {
   return (
     <div className="about_section_parent">

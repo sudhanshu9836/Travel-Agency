@@ -11,6 +11,7 @@
   color: black;
   margin-left: 1vw;
   font-size: 2vw;
+  font-weight: 700;
 }
 
 
@@ -46,7 +47,7 @@
   width: 65%;
   /* border: 0.1vw solid black; */
   /* border-right: 0.1vw solid transparent; */
-  font-family: kanit;
+ 
   margin-top: 2vw;
   margin-left: 15vw;
 }
@@ -57,7 +58,7 @@
   
 }
 .about_company h2 {
-    font-family: kanit;
+    
     font-size: 1.8vw;
     position: relative;
     padding-bottom: 1vw;
