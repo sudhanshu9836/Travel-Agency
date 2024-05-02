@@ -7,9 +7,6 @@ function Home() {
   const [hidePackage, setHidePackage] = useState(false);
   return (
     <div className="home">
-
-
-
     
       <div className="segment1">
         <h3 className="segment-description">------ Popular destinations</h3>
