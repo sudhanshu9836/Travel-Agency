@@ -122,12 +122,12 @@ a {
   position: fixed;
   top: 2vmax;
   z-index: 3;
-<<<<<<< HEAD
-=======
  left: 25.0%;
  right: 80%;
-  /* translate: 0 -40vw; */
->>>>>>> new-branch
+}
+#price-booking{
+  text-align: center;
+  margin-top: 10px;
 }
 .inputs {
   display: flex;
@@ -155,7 +155,7 @@ option {
   color: black;
 }
 #bt1_popup {
-  margin-top: 4vmax;
+  margin-top: 1vmax;
   margin-left: 17vw;
   font-size: 1.3vmax;
   font-weight: 600;

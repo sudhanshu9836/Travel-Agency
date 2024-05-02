@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
         </div>
       <div className="sendMessage" style={{display: send?"block":"none"}}>
-        <button onClick={()=> setSend(false)}>X</button>
+        <button onClick={()=> setSend(false)}>X</button><br />
         Thanks for Contacting us ! We will be right back for you !
       </div>
       </div>
