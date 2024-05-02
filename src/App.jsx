@@ -1,11 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Layout from "../Layout"
-import Home from "./Components/Home/home"
-import About from "./Components/About/about"
-import Blogs from "./Components/Blogs/blog"
-import Contact from "./Components/Contact/contact"
+import { Home, About, Blogs, Contact} from "./Components"
 function App() {
-  const router = createBrowserRouter([{
+  const router = createBrowserRouter([{ //Creating router variable
     path: "/",
     element: <Layout/>,
     children: [

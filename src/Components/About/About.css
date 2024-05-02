@@ -1,8 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 .about_section_parent{
     margin-left: 5vw;
+    margin-top: 5vw;
 }
 .company_profile {
   padding: 1vw 0 1vw 0;
@@ -20,7 +19,6 @@
   color: black;
   text-decoration: none;
   font-size: 1.2vw;
-  font-family: kanit;
   font-weight: 600;
   /* border-right: 0.1vw solid black; */
   height: 2.6vw;
@@ -36,7 +34,6 @@
   color:black ;
   transition: .7s;
   background-color: tomato;
-  font-family: kanit;
 }
 .about_list {
   height: 2.6vw;
@@ -44,20 +41,15 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 65%;
-  /* border: 0.1vw solid black; */
-  /* border-right: 0.1vw solid transparent; */
-  font-family: kanit;
   margin-top: 2vw;
   margin-left: 15vw;
 }
 .about_company {
     color: black;
-    font-family: kanit;
     margin-top: 3vw;
   
 }
 .about_company h2 {
-    font-family: kanit;
     font-size: 1.8vw;
     position: relative;
     padding-bottom: 1vw;
@@ -74,7 +66,6 @@
 .about_company p{
     font-size: 1.4vw;
     color: black;
-    font-family: kanit;
 }
 .about_container{
     height: 36vw;
@@ -96,12 +87,10 @@
    width: 100%;
    height: 100%;
    padding-right: 5vw;
-    /* height: 100%; */
    
 }
 
 .img_container p{
-    font-family: kanit;
     padding-top: 2vw;
 }
 .why_us{
@@ -110,7 +99,6 @@
 }
 .why_us h2{
     width: 20%;
-    font-family: kanit;
     color: black;
     font-size: 1.8vw;
     position: relative;
@@ -126,7 +114,6 @@
     left: 0;
 }
 .why_us h3, .moto_items h3 , .about_header h3{
-    font-family: kanit;
     color: black;
     font-size: 1.4vw;
    
@@ -134,7 +121,6 @@
 
 
 .why_us p, .moto_items p, .about_header p{
-    font-family: kanit;
     color: black;
     font-size: 1.3vw;
 }
@@ -167,7 +153,6 @@
 
 .our_moto h2{
     width: 20%;
-    font-family: kanit;
     color: black;
     font-size: 1.8vw;
     position: relative;
@@ -185,7 +170,7 @@
 
 .moto_description{
     width: 60%;
-padding: 2vw 0 2vw 4vw;
+    padding: 2vw 0 2vw 4vw;
 }
 .moto_items{
     padding-bottom: 2vw;
@@ -201,7 +186,6 @@ padding: 2vw 0 2vw 4vw;
 
 .about_header h2{
     width: 20%;
-    font-family: kanit;
     color: black;
     font-size: 1.8vw;
     position: relative;
@@ -221,7 +205,6 @@ padding: 2vw 0 2vw 4vw;
     margin-right: 3.4vw;
     padding-left: 3.8vw;
     padding-top: 3vw;
-    font-family: kanit;
     color: black;
 }
 .about_services_description{
@@ -233,20 +216,17 @@ padding: 2vw 0 2vw 4vw;
     padding-top: 2vw;
 }
 .about_services_description h3{
-    font-family: kanit;
     color: black;
     font-size: 1.4vw;
 }
 .about_services_description h4{
     color: black;
-    font-family: kanit;
     color: black;
     padding-top: 1vw;
     padding-bottom: 1vw;
     font-size: 1.2vw;
 }
 .services_list a{
-    font-family: kanit;
     color: black;
     text-decoration: none;
     color: black;
@@ -268,7 +248,6 @@ padding: 2vw 0 2vw 4vw;
     height: 100%;
 }
 .about_testimonials h3{
-    font-family: kanit;
     color: black;
     font-size: 1.8vw;
     margin-left: 1vw;
@@ -296,14 +275,12 @@ padding: 2vw 0 2vw 4vw;
 }
  .testimonials_card p{
     color: black;
-    font-family: kanit;
     font-size: 1.4vw;
     text-align: center;
     padding-top: 2vw;
 }
 .testimonials_card h5{
     color: black;
-    font-family: kanit;
     font-size: 1.9vw;
     text-align: center;
 }

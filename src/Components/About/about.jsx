@@ -6,6 +6,7 @@ function About() {
     <div className="about_section_parent">
       <div className="company_profile">
         <h2>About our agency</h2>
+        {/* Sub headings tags */}
         <div className="about_list">
           <a href="#about_company" className="About_list_li">
             About Company
@@ -210,7 +211,6 @@ function About() {
             </div>
           </div>
         </div>
-        {/* above code is for about page */}
       </div>
     </div>
   );

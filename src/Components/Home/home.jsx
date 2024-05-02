@@ -4,10 +4,10 @@ import "./home_responsive.css";
 import Card from "./card";
 import Package from "./package";
 function Home() {
-  const [hidePackage, setHidePackage] = useState(false);
+  const [hidePackage, setHidePackage] = useState(false); // hidePackage to show whether all packhages should be displaywd on screen or not
   return (
     <div className="home">
-    
+    {/* Segment 1 containg cards of different cities */}
       <div className="segment1">
         <h3 className="segment-description">------ Popular destinations</h3>
         <div className="segment-heading">TOP NOTCH DESTINATIONS</div>
@@ -38,12 +38,13 @@ function Home() {
           />
         </div>
       </div>
+      {/* Segment 2 contaings packages */}
       <div className="segment2">
         <div className="segment-description">EXPLORE GREAT PLACES</div>
         <div className="segment-heading">POPULAR PACKAGES</div>
         <p className="segment2-para">
-  Discover a world of breathtaking destinations with our carefully curated packages. From sun-soaked beaches to majestic mountains, our travel options are designed to suit every kind of explorer. Whether you're seeking adventure, relaxation, or cultural immersion, we offer unforgettable experiences that will leave you with cherished memories. Let us guide you on your next journey to explore the wonders of the world.
-</p>
+       Discover a world of breathtaking destinations with our carefully curated packages. From sun-soaked beaches to majestic mountains, our travel options are designed to suit every kind of explorer. Whether you're seeking adventure, relaxation, or cultural immersion, we offer unforgettable experiences that will leave you with cherished memories. Let us guide you on your next journey to explore the wonders of the world.
+       </p>
 
         <div className="packages">
           <Package
@@ -83,6 +84,7 @@ function Home() {
             para={"Embarking on a heavenly journey through the enchanting landscapes of Srinagar, India."}
           />
         </div>
+        {/* Pachkages that will be hidden until pressed button to show them */}
         <div
           className="hidden-package"
           style={{ display: hidePackage ? "flex" : "none" }}
@@ -143,6 +145,7 @@ function Home() {
           See less
         </button>
       </div>
+      {/* Segment 3 for adventure box */}
       <div className="segment3">
         <img
           src="https://i.pinimg.com/564x/75/f7/a4/75f7a49f0a16de42632289d97204274a.jpg"
@@ -155,11 +158,12 @@ function Home() {
             REMEMBER US !!
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Praesentium maxime possimus suscipit, voluptatem odit consequuntur
-            sit quidem natus, necessitatibus repudiandae quos ad animi minus
-            harum deserunt beatae tempora accusantium culpa?
+            Journey far and wide, embrace every moment with courage.
+            Life's beauty lies in the unknown, so step forth boldly.
+            Let the world guide you to stories that enrich your soul,
+            creating memories that linger long after your travels end.
           </p>
+
           <div className="segment3-icons">
             <div className="icon">
               <i className="fa-solid fa-users"></i>
@@ -199,6 +203,7 @@ function Home() {
           </div>
         </div>
       </div>
+      {/* Segment 4 for activities */}
       <div className="segment4">
       <div className="segment4-description">Travel by Activity</div>
         <div className="segment4-heading">ADVENTURE AND ACTIVITY</div>
@@ -239,15 +244,10 @@ function Home() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br /> <br />
-      <br />
-      <br />
-      <br />
+      <br /><br /><br /> <br /><br /><br /><br />
       <div className="segment-heading">BEST TRAVELER'S SHARED PHOTOS</div>
-      <br />
-      <br />
+      <br /><br />
+      {/* Segment 5 for photos shared by travellers  */}
       <div className="segment5">
         <img
           src="https://i.pinimg.com/736x/2d/ec/f0/2decf0d2566eb3c13d122171e4a19dbd.jpg"
@@ -285,6 +285,7 @@ function Home() {
 
         <img src="https://wallpapercave.com/wp/wp7231528.jpg" alt="" />
       </div>
+      {/* Segment 6 for advertisements */}
       <div className="segment6">
         <div className="segment-description_offer">----HOLIDAY PACKAGE OFFER</div>
         <div className="segment-heading_offer">HOLIDAY SPECIAL 25% OFF !</div>
@@ -298,10 +299,7 @@ function Home() {
           <button id="bt1">Sign Up Now</button>
         </div>
         <p className="offer_p_bottom">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
-          quaerat fugiat sint magnam exercitationem, quo aperiam mollitia itaque
-          ab similique commodi vitae saepe at quasi rem! Maxime veniam impedit
-          numquam.\
+          Offer closing soon ...
         </p>
       </div>
     </div>
