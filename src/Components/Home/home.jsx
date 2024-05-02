@@ -296,7 +296,7 @@ function Home() {
         </p>
         <div className="offer_login">
           <input type="email" placeholder="Your Email Address.." />
-          <button id="bt1">Sign Up Now</button>
+          <button id="bt_offer" className="offerbutton">Sign Up Now</button>
         </div>
         <p className="offer_p_bottom">
           Offer closing soon ...

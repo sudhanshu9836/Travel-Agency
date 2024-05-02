@@ -9,12 +9,59 @@ function Header() {
     const [person, setPerson] = useState(1); // Initialize person state with 1
     const [destination, setDestination] = useState("");
 
+<<<<<<< HEAD
     // Toggle menu visibility
     function menuClick() {
         document.querySelector("#links_id").classList.toggle("show");
         document.querySelector(".fa-bars").style.display = "none";
         document.querySelector(".fa-xmark").style.display = "block";
     }
+=======
+  function menuClick() {
+    document.querySelector("#links_id").classList.toggle("show");
+    document.querySelector(".fa-bars").style.display = "none";
+    document.querySelector(".fa-xmark").style.display = "block";
+  }
+  function menuClickx() {
+    document.querySelector("#links_id").classList.toggle("show");
+    document.querySelector(".fa-bars").style.display = "block";
+    document.querySelector(".fa-xmark").style.display = "none";
+  }
+  return (
+    <>
+      <div id="header">
+        <div className="navigation-bar">
+          <div className="nav_list">
+            <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
+              Travalo<i className="fa-solid fa-plane-departure"></i>
+            </h2>
+            <i className="fa-solid fa-bars _repo_icons" onClick={menuClick} ></i>
+            <i
+              className="fa-solid fa-xmark _repo_icons"
+              onClick={menuClickx}
+            ></i>
+          </div>
+          <div
+            className="links"
+            id="links_id"
+            style={{ display: pop ? "none" : "block" }}
+          >
+            <Link to={"/"} className="nav-links">
+              HOME
+            </Link>
+            <Link to={"/about"} className="nav-links">
+               ABOUT
+            </Link>
+            <Link className="nav-links">BLOG</Link>
+            <Link to={"/contact"} className="nav-links">
+              CONTACT
+            </Link>
+            <button id="bt1_header" onClick={() => setPop(true)}>
+              BOOK NOW
+            </button>
+          </div>
+        </div>
+>>>>>>> new-branch
 
     function menuClickx() {
         document.querySelector("#links_id").classList.toggle("show");
