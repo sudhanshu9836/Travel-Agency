@@ -184,7 +184,7 @@ useEffect(() => {
                     </select>
                     {price !== NaN && price > 0 && <h1 id="price-booking">Price: {price}</h1>}
                 </div>
-                <button id="bt1_popup">Book now</button>
+                <button id="bt1_popup" onClick={()=>alert("Booked")}>Book now</button>
             </form>
         </>
     );
