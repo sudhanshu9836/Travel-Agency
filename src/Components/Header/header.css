@@ -113,7 +113,7 @@ a {
   height: 42vmax;
   width: 48vmax;
   border: 2px solid rgb(110, 103, 103);
-  background-color: rgba(13, 13, 13, 0.629);
+  background-color: rgba(13, 13, 13, 1);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
