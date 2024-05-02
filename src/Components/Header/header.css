@@ -122,12 +122,9 @@ a {
   position: fixed;
   top: 2vmax;
   z-index: 3;
-<<<<<<< HEAD
-=======
  left: 25.0%;
  right: 80%;
   /* translate: 0 -40vw; */
->>>>>>> new-branch
 }
 .inputs {
   display: flex;

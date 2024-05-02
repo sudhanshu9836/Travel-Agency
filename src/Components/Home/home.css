@@ -55,10 +55,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-<<<<<<< HEAD
-=======
     gap: .5vmax ;
->>>>>>> new-branch
   }
   .icon {
     width: 7vmax;
@@ -71,17 +68,10 @@
 
   }
   .icon i {
-<<<<<<< HEAD
-    margin-top: 10px;
-    margin-right: 20px;
-    font-size: 25px;
-    transform: translateY(15px);
-=======
      margin-left: 2vmax;
     margin-top: 0;
     margin-right: 0;
     font-size: 2vmax;
->>>>>>> new-branch
   }
   .box p {
     margin: 20px 0px;
@@ -96,26 +86,6 @@
     margin: 0px 0px;
     font-size: 1.8vw;
   }
-<<<<<<< HEAD
-  .segment5b {
-    display: flex;
-    gap: .3vw;
-    overflow: hidden;
-  }
-  .segment5 img {
-    height: 250px;
-    width: auto;
-  }
-  .segment5b img {
-    height: 250px;
-    width: auto;
-  }
-  .segment5 img:hover, .segment5b img:hover{
-    transform: scale(1.1);
-  }
-/* Cards/Packages styling */
-=======
->>>>>>> new-branch
 
   .contact-box{
     display: flex;
