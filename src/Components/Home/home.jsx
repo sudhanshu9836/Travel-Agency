@@ -208,10 +208,10 @@ function Home() {
       <div className="segment4-description">Travel by Activity</div>
         <div className="segment4-heading">ADVENTURE AND ACTIVITY</div>
         <p className="segment3-para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi
-          tenetur dolor repudiandae libero laborum explicabo aspernatur
-          doloribus eaque eos cupiditate consequatur deleniti, perferendis vel,
-          fugit praesentium consequuntur? Molestiae, consequuntur?
+          Embark on a journey filled with thrilling adventures and captivating activities! 
+          Whether you're a seasoned adventurer or new to the world of exploration, our travel packages offer something for everyone. 
+          Experience the rush of outdoor sports, discover breathtaking landscapes, and immerse yourself in vibrant cultures. 
+          Join us for an unforgettable adventure tailored to your interests and unleash the adventurer within!
         </p>
         <div className="images">
           <div className="images-box">
