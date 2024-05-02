@@ -65,7 +65,6 @@
   }
   .icon h1{
     font-size: 2vmax;
-
   }
   .icon i {
      margin-left: 2vmax;
@@ -86,6 +85,23 @@
     margin: 0px 0px;
     font-size: 1.8vw;
   }
+  .segment5b {
+    display: flex;
+    gap: .3vw;
+    overflow: hidden;
+  }
+  .segment5 img {
+    height: 250px;
+    width: auto;
+  }
+  .segment5b img {
+    height: 250px;
+    width: auto;
+  }
+  .segment5 img:hover, .segment5b img:hover{
+    transform: scale(1.1);
+  }
+/* Cards/Packages styling */
 
   .contact-box{
     display: flex;

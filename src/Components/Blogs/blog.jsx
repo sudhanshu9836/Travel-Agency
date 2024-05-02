@@ -8,24 +8,28 @@ function Blog() {
       <div className="blog-row">
         <div className="blog-leftcolumn">
           <div className="blog-card">
-            <h2 className="blog-font">"Explore the India: Wanderlust Chronicles"</h2>
+            <h2 className="blog-font" id='left-font'>"Explore the India: Wanderlust Chronicles"</h2>
             <h5 className="blog-para" id='blog-date'>posted on: 23 April, 2023</h5>
+            <div className='blog-content'>
             <div className="blog-fakeimg" style={{ height: '263px' }}>
               <img src="https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?cs=srgb&dl=pexels-freestockpro-3278215.jpg&fm=jpg" alt="Travel Image" />
             </div>
-            <p className="blog-para">
+            <p className="blog-para" id='content-para'>
               Traveling is a transformative journey that transcends mere movement from one place to another; it's an exploration of both outer landscapes and inner horizons. It's about immersing oneself in new cultures, savoring exotic cuisines, and forging connections with people from different walks of life.
             </p>
+            </div>
           </div>
           <div className="blog-card">
-            <h2 className="blog-font">"Roaming Routes: Tales from Around the India"</h2>
+            <h2 className="blog-font" id='left-font'>"Roaming Routes: Tales from Around the India"</h2>
             <h5 className="blog-para" id='blog date'>Posted on: Jan 2, 2023</h5>
+            <div className="blog-content">
             <div className="blog-fakeimg" style={{ height: '310px' }}>
               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUROQW3Yh4FhhvzWEwa_mOBP7aSQ63euPi89k9QDBE9czBl7sSkDB2fWSZ41bahe1En9Ar0OpPfPhxfTvlHk4hHsSAkgZSqPKWZ5voPR-i8oSB_IMDliroGinCro8OqTiT7BKrfVfm7sCY/s1600/ranukumbolo.png" alt="Travel Image" />
             </div>
-            <p className="blog-para">
+            <p className="blog-para" id='content-para'>
               With Roaming Routes, your travel experience is not limited to typical tourist attractions. We delve deeper into each destination, uncovering hidden gems, local traditions, and unique experiences that are off the beaten path. Whether you're craving an adrenaline-fueled adventure, a culinary escapade, or a serene retreat, our curated itineraries and insider tips ensure that every moment of your journey is filled with wonder and excitement.
             </p>
+            </div>
           </div>
         </div>
         <div className="blog-rightcolumn">

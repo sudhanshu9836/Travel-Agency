@@ -9,99 +9,105 @@ function Header() {
     const [person, setPerson] = useState(1); // Initialize person state with 1
     const [destination, setDestination] = useState("");
 
-    // Toggle menu visibility
-    function menuClick() {
-        document.querySelector("#links_id").classList.toggle("show");
-        document.querySelector(".fa-bars").style.display = "none";
-        document.querySelector(".fa-xmark").style.display = "block";
+  function menuClick() {
+    document.querySelector("#links_id").classList.toggle("show");
+    document.querySelector(".fa-bars").style.display = "none";
+    document.querySelector(".fa-xmark").style.display = "block";
+  }
+  function menuClickx() {
+    document.querySelector("#links_id").classList.toggle("show");
+    document.querySelector(".fa-bars").style.display = "block";
+    document.querySelector(".fa-xmark").style.display = "none";
+  }
+  function menuClickx() {
+    document.querySelector("#links_id").classList.toggle("show");
+    document.querySelector(".fa-bars").style.display = "block";
+    document.querySelector(".fa-xmark").style.display = "none";
+}
+
+// Update person count
+const handlePersonChange = (event) => {
+    const newPersonCount = parseInt(event.target.value, 10);
+    setPerson(newPersonCount);
+};
+
+// Update destination and price
+const handleSelectChange = (event) => {
+    const selectedValue = event.target.value;
+    setDestination(selectedValue);
+    calculatePrice(selectedValue, person);
+};
+
+// Calculate the price based on the destination and the number of people
+const calculatePrice = (destination, personCount) => {
+    let calculatedPrice = 0;
+
+    switch (destination) {
+        case 'Goa':
+            calculatedPrice = 22000 * personCount;
+            break;
+        case 'Ladakh':
+            calculatedPrice = 12000 * personCount;
+            break;
+        case 'Lakshadweep':
+            calculatedPrice = 20000 * personCount;
+            break;
+        case 'Srinagar':
+            calculatedPrice = 20000 * personCount;
+            break;
+        case 'Udaipur':
+            calculatedPrice = 18000 * personCount;
+            break;
+        case 'Varanasi':
+            calculatedPrice = 10000 * personCount;
+            break;
+        default:
+            calculatedPrice = 0;
+            break;
     }
+    setPrice(calculatedPrice);
+};
 
-    function menuClickx() {
-        document.querySelector("#links_id").classList.toggle("show");
-        document.querySelector(".fa-bars").style.display = "block";
-        document.querySelector(".fa-xmark").style.display = "none";
-    }
+// Use useEffect to recalculate the price whenever the person count or destination changes
+useEffect(() => {
+    calculatePrice(destination, person);
+}, [person, destination]);
 
-    // Update person count
-    const handlePersonChange = (event) => {
-        const newPersonCount = parseInt(event.target.value, 10);
-        setPerson(newPersonCount);
-    };
-
-    // Update destination and price
-    const handleSelectChange = (event) => {
-        const selectedValue = event.target.value;
-        setDestination(selectedValue);
-        calculatePrice(selectedValue, person);
-    };
-
-    // Calculate the price based on the destination and the number of people
-    const calculatePrice = (destination, personCount) => {
-        let calculatedPrice = 0;
-
-        switch (destination) {
-            case 'Goa':
-                calculatedPrice = 22000 * personCount;
-                break;
-            case 'Ladakh':
-                calculatedPrice = 12000 * personCount;
-                break;
-            case 'Lakshadweep':
-                calculatedPrice = 20000 * personCount;
-                break;
-            case 'Srinagar':
-                calculatedPrice = 20000 * personCount;
-                break;
-            case 'Udaipur':
-                calculatedPrice = 18000 * personCount;
-                break;
-            case 'Varanasi':
-                calculatedPrice = 10000 * personCount;
-                break;
-            default:
-                calculatedPrice = 0;
-                break;
-        }
-        setPrice(calculatedPrice);
-    };
-
-    // Use useEffect to recalculate the price whenever the person count or destination changes
-    useEffect(() => {
-        calculatePrice(destination, person);
-    }, [person, destination]);
-
-    return (
-        <>
-            <div id="header">
-                <div className="navigation-bar">
-                    <div className="nav_list">
-                        <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
-                            Travelo<i className="fa-solid fa-plane-departure"></i>
-                        </h2>
-                        <i className="fa-solid fa-bars _repo_icons" onClick={menuClick}></i>
-                        <i className="fa-solid fa-xmark _repo_icons" onClick={menuClickx}></i>
-                    </div>
-                    <div
-                        className="links"
-                        id="links_id"
-                        style={{ display: pop ? "none" : "block" }}
-                    >
-                        <Link to="/" className="nav-links">
-                            HOME
-                        </Link>
-                        <Link to="/about" className="nav-links">
-                            ABOUT
-                        </Link>
-                        <Link to="/blogs" className="nav-links">
-                            BLOG
-                        </Link>
-                        <Link to="/contact" className="nav-links">
-                            CONTACT
-                        </Link>
-                        <button id="bt1_header" onClick={() => setPop(true)}>
-                            BOOK NOW
-                        </button>
-                    </div>
+  return (
+    <>
+      <div id="header">
+            <div className="navigation-bar">
+          <div className="nav_list">
+            <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
+              Travelo<i className="fa-solid fa-plane-departure"></i>
+            </h2>
+            <i className="fa-solid fa-bars _repo_icons" onClick={menuClick} ></i>
+            <i
+              className="fa-solid fa-xmark _repo_icons"
+              onClick={menuClickx}
+            ></i>
+          </div>
+          <div
+            className="links"
+            id="links_id"
+            style={{ display: pop ? "none" : "block" }}
+          >
+            <Link to={"/"} className="nav-links">
+              HOME
+            </Link>
+            <Link to={"/about"} className="nav-links">
+               ABOUT
+            </Link>
+            <Link to={"/blogs"} className="nav-links">
+                BLOG
+                </Link>
+            <Link to={"/contact"} className="nav-links">
+              CONTACT
+            </Link>
+            <button id="bt1_header" onClick={() => setPop(true)}>
+              BOOK NOW
+            </button>
+          </div>
                 </div>
 
                 <div className="banner_text_para">
@@ -176,9 +182,9 @@ function Header() {
                         <option value="Udaipur">Udaipur</option>
                         <option value="Varanasi">Varanasi</option>
                     </select>
-                    {price !== NaN && price > 0 && <h1>Price: {price}</h1>}
+                    {price !== NaN && price > 0 && <h1 id="price-booking">Price: {price}</h1>}
                 </div>
-                <button id="bt1_popup">Book now</button>
+                <button id="bt1_popup" onClick={()=>alert("Booked")}>Book now</button>
             </form>
         </>
     );
