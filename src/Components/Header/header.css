@@ -9,19 +9,19 @@ a {
   text-decoration: none;
 }
 #logo {
-  margin-top: 1.9vw;
-  font-size: 30px;
+  margin-top: 2vmax;
+  font-size: 2.4vmax;
   font-weight: 600;
   font-family: "Dancing Script", cursive;
 }
 #logo i {
  
-  font-size: 20px;
+  font-size: 1.5vmax;
   margin-left: 5px;
 }
 #header {
   width: 100%;
-  height: 550px;
+  height: 40vmax;
   background-image: url("https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310_1280.jpg");
   background-size: cover;
   filter: contrast(0.9);
@@ -42,8 +42,8 @@ a {
 /* Button stylings */
 
 .bt-t1 {
-  height: 40px;
-  width: 150px;
+  height: 3vmax;
+  width: 10vmax;
   color: white;
   font-weight: 600;
   padding: 6px;
@@ -54,22 +54,22 @@ a {
 #bt2 {
   margin-top: 20px;
   margin-left: 45%;
-  font-size: 2.3vh;
+  font-size: 1vmax;
   border-radius: 2vw;
 }
 #bt1_header {
-  margin-top: 2.9vh;
-  font-size: 2.3vh;
+  margin-top: 20px;
+  font-size: 1vmax;
+  border-radius: 2vw;
+  height: 3vmax;
+  width: 10vmax;
+  color: white;
   font-weight: 600;
-  border-radius: 2vh;
- 
-  height: 40px;
-  width: 150px;
-  color: rgb(255, 255, 255);
-  padding: 8px;
+  padding: 6px;
   background-color: rgba(222, 95, 87, 1);
   cursor: pointer;
-  border-radius: 3vw;
+  border-radius: 2vw;
+ 
 }
 
 /* links styling */
@@ -77,9 +77,9 @@ a {
 .nav-links {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5vmax;
   margin-left: .8vw;
-border: 2px solid transparent;
+  border: 2px solid transparent;
   font-weight: 600;
   padding: .5vw 1.8vw .5vw 1.8vw;
 }
@@ -95,7 +95,7 @@ border: 2px solid transparent;
 /* Texts */
 
 #banner-text {
-  font-size: 4em;
+  font-size: 4vmax;
   font-weight: 900;
   text-align: center;
   margin-top: 100px;
@@ -104,24 +104,26 @@ border: 2px solid transparent;
   text-align: center;
   margin: 20px 70px 10px 70px;
   line-height: 1.3em;
+  font-size: 1.3vmax;
 }
 
 /* Booking stylings */
 
 #booking-main {
-  height: 490px;
-  width: 600px;
+  height: 42vmax;
+  width: 48vmax;
   border: 2px solid rgb(110, 103, 103);
   background-color: rgba(13, 13, 13, 0.629);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   border-radius: 0.5vw;
-  padding: 10px;
+  padding: 2vmax;
   position: fixed;
-  top: 3vw;
-  left: 28%;
+  top: 2vmax;
   z-index: 3;
+ left: 25.0%;
+ right: 80%;
   /* translate: 0 -40vw; */
 }
 .inputs {
@@ -137,9 +139,9 @@ label {
 input,
 select {
   margin-left: 10px;
-  width: 500px;
-  height: 39px;
-  font-size: 1.1em;
+  width: 40vmax;
+  height: 2.7vmax;
+  font-size: 1.2vmax;
   color: rgb(0, 0, 0);
   font-weight: 600;
   text-align: center;
@@ -150,13 +152,13 @@ option {
   color: black;
 }
 #bt1_popup {
-  margin-top: 3vh;
+  margin-top: 4vmax;
   margin-left: 17vw;
-  font-size: 2.6vh;
-  font-weight: 500;
+  font-size: 1.3vmax;
+  font-weight: 600;
   border-radius: 2vh;
-  height: 40px;
-  width: 150px;
+  height: 3vmax;
+  width: 8vmax;
   color: rgb(255, 255, 255);
   padding: 8px;
   background-color: rgba(222, 95, 87, 1);

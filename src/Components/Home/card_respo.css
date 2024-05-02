@@ -7,8 +7,11 @@
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 4vw;
-        margin-top: 3vw;
-       
+        margin-top: 3vw; 
     }
-
+    .bottom {
+        position: relative;
+        padding-bottom: 4vmax;
+       
+      }
 }

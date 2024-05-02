@@ -1,10 +1,12 @@
 .home{
-    margin: 100px;
+    margin: 0vmax 8vmax 8vmax 8vmax;
+    padding-top: 1vmax;
+    overflow: hidden;
 }
 /* Segment  styling */
 
 .segment-description{
-    margin-top: 4vw;
+    margin-top: 2vmax;
     color: rgba(222,95,87,1);
 }
 .segment-heading{
@@ -26,9 +28,14 @@
 }
 .segment3 {
     margin-top: 100px;
-    height: 42vw;
-    margin-left: 4vw;
+    height: 45vmax;
+    margin-left: 1vw;
     display: flex;
+    margin-bottom: 4vmax;
+    overflow-y: hidden;
+  }
+  .segment3 img{
+    width: 40%;
   }
   .box {
     width: 60%;
@@ -40,63 +47,41 @@
   .segment3-icons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-   
+    gap: .5vmax ;
   }
   .icon {
-    width: 33%;
+    width: 7vmax;
     display: flex;
-    margin-left: 3vw;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .icon h1{
+    font-size: 2vmax;
+
   }
   .icon i {
-    margin-top: 10px;
-    margin-right: 20px;
-    font-size: 25px;
+     margin-left: 2vmax;
+    margin-top: 0;
+    margin-right: 0;
+    font-size: 2vmax;
   }
   .box p {
     margin: 20px 0px;
-    line-height: 1.4em;
+    line-height: 1em;
+    font-size: 1.4vmax;
   }
   .box h1 {
     margin: 10px 0px;
     font-size: 1.8vw;
   }
-.segment4{
-    text-align: center;
-    
-}
-.segment5 {
-    display: flex;
-    gap: .3vw;
-    overflow: hidden;
+  .box h4 {
+    margin: 0px 0px;
+    font-size: 1.8vw;
   }
-  .segment5b {
-    display: flex;
-    gap: .3vw;
-    overflow: hidden;
-  }
-  .segment5 img {
-    height: 250px;
-    width: auto;
-  }
-  .segment5b img {
-    height: 250px;
-    width: auto;
-  }
-/* Cards/Packages styling */
 
-.cards, .packages, .hidden-package{
-    display: flex;
-    justify-content: space-around;
-   
-}
-
-.package{
-    margin-top: 50px;
-}
-
-
-.contact-box{
+  .contact-box{
     display: flex;
     border: 2px solid white;
     padding: 0 0 2vw 3vw;
@@ -106,17 +91,58 @@
 }
 .contact-box i {
     transform: translateY(30px);
-    margin: 0px 50px;
-    font-size: 30px;
+    margin: 0px 1vmax;
+    font-size: 2.4vmax;
     color: black;
   }
   .contact-box h2 {
     color: red;
-    font-size: 1.8vw;
+    font-size: 1.4vmax;
   }
   .contact-box p{
     color: black;
+    font-size: 1.4vmax;
 }
+.segment4{
+    text-align: center;
+    
+}
+.segment5 {
+    display: flex;
+    justify-content: center;
+    gap: .3vw;
+    overflow: hidden;
+  }
+  .segment5b {
+    display: flex;
+    gap: .3vw;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .segment5 img {
+    height: 20vmax;
+    width: auto;
+  }
+  .segment5b img {
+    height: 250px;
+    width: auto;
+    height: 20vmax;
+  }
+/* Cards/Packages styling */
+
+.cards, .packages, .hidden-package{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:3vmax;
+}
+
+.package{
+    margin-top: 50px;
+}
+
+
+
 .segment4-description{
     color: #000000;
     margin: 2vw 0 1vw 0;
@@ -137,14 +163,17 @@
 .images{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2vmax;
+
 }
 .images img{
-    height: 350px;
-    width: 250px;
+    height: 28vmax;
+    width: 18vmax;
 }
 
 .images-box{
-    height: 400px;
+    height: 33vmax;
     border: 2px solid lightgray;
 }
 .images-box h4{
@@ -167,9 +196,10 @@
 /* Segment 6 stylings */
 .segment6{
     margin: 3vw 0 0vw 0;
-    height: 500px;
+    height: 40vw;
     border: 2px solid lightgray;
     background-image: url("https://images.pexels.com/photos/6057134/pexels-photo-6057134.jpeg?cs=srgb&dl=pexels-shkrabaanthony-6057134.jpg&fm=jpg");
+    background-position: center;
     background-size: cover;
     padding: 8vw 0 0 6vw;
     align-items: center;

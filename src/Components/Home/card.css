@@ -1,37 +1,40 @@
-.main{
-    height: 420px;
-    width: 350px;
-    background-size: cover;
-    border-radius: 5px;
-    cursor: pointer;
-   
+.main {
+  height: 32vmax;
+  width: 24vmax;
+  background-size: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#cityName{
-    color: white;
-    background-color: #128dba;
-    display: inline;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    margin-left: 25px;
-    position: relative;
-    top: 30px;
-    border-radius: 5px;
+#cityName {
+  color: white;
+  background-color: #128dba;
+  display: inline;
+  width: fit-content;
+  height: auto;
+  padding: 10px;
+  margin-left: 25px;
+  position: relative;
+  top: 2vmax;
+  border-radius: 5px;
 }
 
-.bottom{
-    position: relative;
-    top: 320px;
-    left: 20px;
+.bottom {
+  position: relative;
+  margin-bottom: 3vmax;
+  margin-left: 4vmax;
+ 
 }
- #bottom h3{
-    color: rgb(255, 255, 255);
+#bottom h3{
+  color: rgb(255, 255, 255);
 }
 
 /* Hover property */
 
-.main:hover{
-    transform: scale(1.05);
-    transition: transform 0.5s;
+.main:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }

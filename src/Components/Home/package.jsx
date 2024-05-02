@@ -5,7 +5,7 @@ function Package({price,image, time, people, location, heading, reviews, para}) 
   return (
     <div className='package'>
         <div className="up" style={{backgroundImage: `url(${image})`}}>
-            <h3 className='price'>&#8377;{price}/per person</h3>
+            <h3 className='price' id='price'>&#8377;{price}/per person</h3>
             <div className="inner-box">
                 <h4><i class="fa-regular fa-clock"></i>{time}</h4>
                 <h4><i class="fa-solid fa-users"></i>{people}</h4>

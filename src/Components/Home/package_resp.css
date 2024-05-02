@@ -1,24 +1,74 @@
-@media screen and (max-width: 480px) {
-    .package{
-        height: 580px;
-        width: 320px;
-        border: 2px solid lightgray;
-        
-        
-    }
 
-    .bottom h3, .bottom h5, .bottom p{
-        color: black;
-        width: 90%;
-      
-      
-        text-align: center;
-    }
-    #package-bottom{
-        margin-top: -250px;
-        margin-left: -20px;
-    }
-    .bottom{
-        padding: 0 1vw 0 3vw;
-    }
+@media screen and (max-width: 480px) {
+    .package {
+    height: 440px;
+    width: 320px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 4vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+.up {
+    height: 44vmax;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bottom h3,
+  .bottom h5,
+  .bottom p {
+    color: black;
+    width: fit-content;
+    text-align: center;
+    
+  }
+  #package-bottom {
+    
+    margin-left: 0;
+    margin-right: 1vmax;
+    margin-bottom: 1vmax;
+    height: 13vmax;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(178, 177, 174);
+    padding: 3vmax ;
+  
+  }
+  
+  /* Up elements styling */
+  
+  .price {
+    background-color: rgba(222, 95, 87, 1);
+    width: 15vmax;
+    padding: .4vmax;
+    position: relative;
+    font-size: 1vmax;
+    margin-left:20vmax;
+    text-align: center;
+    top: 20px;
+  }
+  
+  .inner-box {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #0791be;
+    padding: .7vmax; 
+    border: 1px solid lightslategrey;
+  }
+  .inner-box i {
+    margin-right: 8px;
+  }
 }
