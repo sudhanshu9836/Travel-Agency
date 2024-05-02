@@ -76,7 +76,7 @@ function Header() {
                 <div className="navigation-bar">
                     <div className="nav_list">
                         <h2 id="logo" style={{ marginRight: pop ? "71.8vw" : "0" }}>
-                            Travalo<i className="fa-solid fa-plane-departure"></i>
+                            Travelo<i className="fa-solid fa-plane-departure"></i>
                         </h2>
                         <i className="fa-solid fa-bars _repo_icons" onClick={menuClick}></i>
                         <i className="fa-solid fa-xmark _repo_icons" onClick={menuClickx}></i>

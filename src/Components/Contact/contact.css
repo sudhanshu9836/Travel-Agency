@@ -93,3 +93,18 @@ span {
 .contact-btn {
   margin-left: 8vw;
 }
+
+.sendMessage{
+  color: black;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sendMessage button{
+  color: black;
+}

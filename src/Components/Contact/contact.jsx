@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import "./contact_repo.css";
 const Contact = () => {
+  const [send, setSend] = useState(false);
   return (
     <>
       <div className="contact_us_header">
@@ -25,7 +26,7 @@ const Contact = () => {
             <span> Trevelo123@gmail.com</span>{" "}
           </p>
         </div>
-        <div className="contact_right">
+        <div className="contact_right"  style={{display: send?"none":"block"}}>
           <div className="col-md-12 form-group">
             <label htmlFor="name" className="col-form-label">
               Name
@@ -65,11 +66,15 @@ const Contact = () => {
           </div>
 
           <div className="contact-btn">
-            <button id="bt1" type="submit">
+            <button id="bt1" type="submit" onClick={()=> setSend(true)}>
               Send
             </button>
           </div>
         </div>
+      <div className="sendMessage" style={{display: send?"block":"none"}}>
+        <button onClick={()=> setSend(false)}>X</button>
+        Thanks for Contacting us ! We will be right back for you !
+      </div>
       </div>
     </>
   );
